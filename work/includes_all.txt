@@ -1,0 +1,708 @@
+content/cn/docs/tasks/debug-application-cluster/debug-stateful-set.md:{% include templates/task.md %}
+content/cn/docs/tasks/run-application/scale-stateful-set.md:{% include templates/task.md %}
+content/cn/docs/tasks/run-application/run-single-instance-stateful-application.md:* {% include task-tutorial-prereqs.md %}
+content/cn/docs/tasks/run-application/run-single-instance-stateful-application.md:{% include code.html language="yaml" file="gce-volume.yaml" ghlink="/docs/tasks/run-application/gce-volume.yaml" %}
+content/cn/docs/tasks/run-application/run-single-instance-stateful-application.md:{% include code.html language="yaml" file="mysql-deployment.yaml" ghlink="/docs/tasks/run-application/mysql-deployment.yaml" %}
+content/cn/docs/tasks/run-application/run-single-instance-stateful-application.md:{% include templates/tutorial.md %}
+content/cn/docs/tasks/run-application/run-stateless-application-deployment.md:{% include task-tutorial-prereqs.md %}
+content/cn/docs/tasks/run-application/run-stateless-application-deployment.md:{% include code.html language="yaml" file="deployment.yaml" ghlink="/cn/docs/tasks/run-application/deployment.yaml" %}
+content/cn/docs/tasks/run-application/run-stateless-application-deployment.md:{% include code.html language="yaml" file="deployment-update.yaml" ghlink="/cn/docs/tutorials/stateless-application/deployment-update.yaml" %}
+content/cn/docs/tasks/run-application/run-stateless-application-deployment.md:{% include code.html language="yaml" file="deployment-scale.yaml" ghlink="/cn/docs/tutorials/stateless-application/deployment-scale.yaml" %}
+content/cn/docs/tasks/run-application/run-stateless-application-deployment.md:{% include templates/tutorial.md %}
+content/cn/docs/tasks/configure-pod-container/opaque-integer-resource.md:{% include feature-state-alpha.md %}
+content/cn/docs/tasks/configure-pod-container/opaque-integer-resource.md:{% include task-tutorial-prereqs.md %}
+content/cn/docs/tasks/configure-pod-container/opaque-integer-resource.md:{% include code.html language="yaml" file="oir-pod.yaml" ghlink="/cn/docs/tasks/configure-pod-container/oir-pod.yaml" %}
+content/cn/docs/tasks/configure-pod-container/opaque-integer-resource.md:{% include code.html language="yaml" file="oir-pod-2.yaml" ghlink="/docs/tasks/configure-pod-container/oir-pod-2.yaml" %}
+content/cn/docs/tasks/configure-pod-container/opaque-integer-resource.md:{% include templates/task.md %}
+content/cn/docs/tasks/manage-hugepages/scheduling-hugepages.md:{% include feature-state-alpha.md %}
+content/cn/docs/tasks/manage-hugepages/scheduling-hugepages.md:{% include templates/task.md %}
+content/cn/docs/tasks/administer-cluster/cpu-memory-limit.md:* {% include task-tutorial-prereqs.md %}
+content/cn/docs/tasks/administer-cluster/cpu-memory-limit.md:{% include templates/task.md %}
+content/cn/docs/tasks/administer-cluster/kubelet-config-file.md:{% include feature-state-alpha.md %}
+content/cn/docs/tasks/administer-cluster/kubelet-config-file.md:{% include templates/task.md %}
+content/cn/docs/tasks/administer-cluster/romana-network-policy.md:{% include templates/task.md %}
+content/cn/docs/tasks/administer-cluster/apply-resource-quota-limit.md:* {% include task-tutorial-prereqs.md %}
+content/cn/docs/tasks/administer-cluster/apply-resource-quota-limit.md:{% include templates/task.md %}
+content/cn/docs/tasks/administer-cluster/declare-network-policy.md:{% include templates/task.md %}
+content/cn/docs/tasks/administer-cluster/calico-network-policy.md:{% include templates/task.md %}
+content/cn/docs/tasks/administer-cluster/dns-custom-nameservers.md:* {% include task-tutorial-prereqs.md %}
+content/cn/docs/tasks/administer-cluster/dns-custom-nameservers.md:{% include templates/task.md %}
+content/cn/docs/tasks/administer-cluster/weave-network-policy.md:{% include templates/task.md %}
+content/cn/docs/tasks/administer-cluster/quota-pod-namespace.md:{% include task-tutorial-prereqs.md %}
+content/cn/docs/tasks/administer-cluster/quota-pod-namespace.md:{% include code.html language="yaml" file="quota-pod.yaml" ghlink="/docs/tasks/administer-cluster/quota-pod.yaml" %}
+content/cn/docs/tasks/administer-cluster/quota-pod-namespace.md:{% include code.html language="yaml" file="quota-pod-deployment.yaml" ghlink="/docs/tasks/administer-cluster/quota-pod-deployment.yaml" %}
+content/cn/docs/tasks/administer-cluster/quota-pod-namespace.md:{% include templates/task.md %}
+content/cn/docs/tasks/administer-cluster/access-cluster-services.md:{% include task-tutorial-prereqs.md %}
+content/cn/docs/tasks/administer-cluster/access-cluster-services.md:{% include templates/task.md %}
+content/cn/docs/tasks/administer-cluster/change-default-storage-class.md:{% include task-tutorial-prereqs.md %}
+content/cn/docs/tasks/administer-cluster/change-default-storage-class.md:{% include templates/task.md %}
+content/cn/docs/tasks/administer-cluster/change-pv-reclaim-policy.md:{% include task-tutorial-prereqs.md %}
+content/cn/docs/tasks/administer-cluster/change-pv-reclaim-policy.md:{% include templates/task.md %}
+content/cn/docs/tasks/access-application-cluster/connecting-frontend-backend.md:* {% include task-tutorial-prereqs.md %}
+content/cn/docs/tasks/access-application-cluster/connecting-frontend-backend.md:{% include code.html language="yaml" file="hello.yaml" ghlink="/docs/tasks/access-application-cluster/hello.yaml" %}
+content/cn/docs/tasks/access-application-cluster/connecting-frontend-backend.md:{% include code.html language="yaml" file="hello-service.yaml" ghlink="/docs/tasks/access-application-cluster/hello-service.yaml" %}
+content/cn/docs/tasks/access-application-cluster/connecting-frontend-backend.md:{% include code.html file="frontend/frontend.conf" ghlink="/docs/tasks/access-application-cluster/frontend/frontend.conf" %}
+content/cn/docs/tasks/access-application-cluster/connecting-frontend-backend.md:{% include code.html language="yaml" file="frontend.yaml" ghlink="/docs/tasks/access-application-cluster/frontend.yaml" %}
+content/cn/docs/tasks/access-application-cluster/connecting-frontend-backend.md:{% include templates/tutorial.md %}
+content/cn/docs/tasks/access-application-cluster/configure-access-multiple-clusters.md:{% include templates/task.md %}
+content/cn/docs/tasks/access-application-cluster/communicate-containers-same-pod-shared-volume.md:{% include task-tutorial-prereqs.md %}
+content/cn/docs/tasks/access-application-cluster/communicate-containers-same-pod-shared-volume.md:{% include code.html language="yaml" file="two-container-pod.yaml" ghlink="/docs/tasks/access-application-cluster/two-container-pod.yaml" %}
+content/cn/docs/tasks/access-application-cluster/communicate-containers-same-pod-shared-volume.md:{% include templates/task.md %}
+content/cn/docs/tasks/tls/certificate-rotation.md:{% include templates/task.md %}
+content/cn/docs/tasks/manage-gpus/scheduling-gpus.md:{% include templates/task.md %}
+content/cn/docs/tasks/inject-data-application/define-command-argument-container.md:{% include task-tutorial-prereqs.md %}
+content/cn/docs/tasks/inject-data-application/define-command-argument-container.md:{% include code.html language="yaml" file="commands.yaml" ghlink="/cn/docs/tasks/inject-data-application/commands.yaml" %}
+content/cn/docs/tasks/inject-data-application/define-command-argument-container.md:{% include templates/task.md %}
+content/cn/docs/tasks/inject-data-application/distribute-credentials-secure.md:{% include task-tutorial-prereqs.md %}
+content/cn/docs/tasks/inject-data-application/distribute-credentials-secure.md:{% include code.html language="yaml" file="secret.yaml" ghlink="/docs/tasks/inject-data-application/secret.yaml" %}
+content/cn/docs/tasks/inject-data-application/distribute-credentials-secure.md:{% include code.html language="yaml" file="secret-pod.yaml" ghlink="/docs/tasks/inject-data-application/secret-pod.yaml" %}
+content/cn/docs/tasks/inject-data-application/distribute-credentials-secure.md:{% include code.html language="yaml" file="secret-envars-pod.yaml" ghlink="/docs/tasks/inject-data-application/secret-envars-pod.yaml" %}
+content/cn/docs/tasks/inject-data-application/distribute-credentials-secure.md:{% include templates/task.md %}
+content/cn/docs/tasks/inject-data-application/define-environment-variable-container.md:{% include task-tutorial-prereqs.md %}
+content/cn/docs/tasks/inject-data-application/define-environment-variable-container.md:{% include code.html language="yaml" file="envars.yaml" ghlink="/docs/tasks/inject-data-application/envars.yaml" %}
+content/cn/docs/tasks/inject-data-application/define-environment-variable-container.md:{% include templates/task.md %}
+content/cn/docs/tasks/inject-data-application/downward-api-volume-expose-pod-information.md:{% include task-tutorial-prereqs.md %}
+content/cn/docs/tasks/inject-data-application/downward-api-volume-expose-pod-information.md:{% include code.html language="yaml" file="dapi-volume.yaml" ghlink="/cn/docs/tasks/inject-data-application/dapi-volume.yaml" %}
+content/cn/docs/tasks/inject-data-application/downward-api-volume-expose-pod-information.md:{% include code.html language="yaml" file="dapi-volume-resources.yaml" ghlink="/cn/docs/tasks/inject-data-application/dapi-volume-resources.yaml" %}
+content/cn/docs/tasks/inject-data-application/downward-api-volume-expose-pod-information.md:{% include templates/task.md %}
+content/cn/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-pod.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-pod.yaml" %}
+content/cn/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-preset.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-preset.yaml" %}
+content/cn/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-merged.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-merged.yaml" %}
+content/cn/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-pod.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-pod.yaml" %}
+content/cn/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-configmap.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-configmap.yaml" %}
+content/cn/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-allow-db.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-allow-db.yaml" %}
+content/cn/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-allow-db-merged.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-allow-db-merged.yaml" %}
+content/cn/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-replicaset.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-replicaset.yaml" %}
+content/cn/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-preset.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-preset.yaml" %}
+content/cn/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-replicaset-merged.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-replicaset-merged.yaml" %}
+content/cn/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-pod.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-pod.yaml" %}
+content/cn/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-preset.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-preset.yaml" %}
+content/cn/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-proxy.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-proxy.yaml" %}
+content/cn/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-multi-merged.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-multi-merged.yaml" %}
+content/cn/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-conflict-pod.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-conflict-pod.yaml" %}
+content/cn/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-conflict-preset.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-conflict-preset.yaml" %}
+content/cn/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-conflict-pod.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-conflict-pod.yaml" %}
+content/cn/docs/tasks/inject-data-application/environment-variable-expose-pod-information.md:{% include task-tutorial-prereqs.md %}
+content/cn/docs/tasks/inject-data-application/environment-variable-expose-pod-information.md:{% include code.html language="yaml" file="dapi-envars-pod.yaml" ghlink="/cn/docs/tasks/inject-data-application/dapi-envars-pod.yaml" %}
+content/cn/docs/tasks/inject-data-application/environment-variable-expose-pod-information.md:{% include code.html language="yaml" file="dapi-envars-container.yaml" ghlink="/cn/docs/tasks/inject-data-application/dapi-envars-container.yaml" %}
+content/cn/docs/tasks/inject-data-application/environment-variable-expose-pod-information.md:{% include templates/task.md %}
+content/cn/docs/tasks/manage-daemon/rollback-daemon-set.md:{% include templates/task.md %}
+content/cn/docs/admin/authorization/abac.md:{% include templates/concept.md %}
+content/cn/docs/admin/authorization/webhook.md:{% include templates/concept.md %}
+content/cn/docs/admin/authorization/_index.md:{% include templates/concept.md %}
+content/cn/docs/whatisk8s.md:{% include user-guide-content-moved.md %}
+content/cn/docs/concepts/configuration/manage-compute-resources-container.md:{% include templates/concept.md %}
+content/cn/docs/concepts/example-concept-template.md:{% include templates/concept.md %}
+content/cn/docs/concepts/services-networking/connect-applications-service.md:{% include code.html language="yaml" file="run-my-nginx.yaml" ghlink="/docs/concepts/services-networking/run-my-nginx.yaml" %}
+content/cn/docs/concepts/services-networking/connect-applications-service.md:{% include code.html language="yaml" file="nginx-svc.yaml" ghlink="/docs/concepts/services-networking/nginx-svc.yaml" %}
+content/cn/docs/concepts/services-networking/connect-applications-service.md:{% include code.html language="yaml" file="nginx-secure-app.yaml" ghlink="/docs/concepts/services-networking/nginx-secure-app.yaml" %}
+content/cn/docs/concepts/services-networking/connect-applications-service.md:{% include code.html language="yaml" file="curlpod.yaml" ghlink="/docs/concepts/services-networking/curlpod.yaml" %}
+content/cn/docs/concepts/services-networking/add-entries-to-pod-etc-hosts-with-host-aliases.md:{% include code.html language="yaml" file="hostaliases-pod.yaml" ghlink="/docs/concepts/services-networking/hostaliases-pod.yaml" %}
+content/cn/docs/concepts/workloads/pods/pod-lifecycle.md:{% include templates/concept.md %}
+content/cn/docs/concepts/workloads/pods/podpreset.md:{% include templates/concept.md %}
+content/cn/docs/concepts/workloads/pods/init-containers.md:{% include templates/concept.md %}
+content/cn/docs/concepts/workloads/controllers/garbage-collection.md:{% include code.html language="yaml" file="my-repset.yaml" ghlink="/docs/concepts/workloads/controllers/my-repset.yaml" %}
+content/cn/docs/concepts/workloads/controllers/garbage-collection.md:{% include templates/concept.md %}
+content/cn/docs/concepts/workloads/controllers/deployment.md:{% include code.html language="yaml" file="nginx-deployment.yaml" ghlink="/docs/concepts/workloads/controllers/nginx-deployment.yaml" %}
+content/cn/docs/concepts/workloads/controllers/deployment.md:{% include templates/concept.md %}
+content/cn/docs/concepts/containers/images.md:{% include templates/concept.md %}
+content/cn/docs/concepts/containers/container-environment-variables.md:{% include templates/concept.md %}
+content/cn/docs/concepts/overview/working-with-objects/kubernetes-objects.md:{% include code.html language="yaml" file="nginx-deployment.yaml" ghlink="/docs/concepts/overview/working-with-objects/nginx-deployment.yaml" %}
+content/cn/docs/concepts/overview/working-with-objects/kubernetes-objects.md:{% include templates/concept.md %}
+content/cn/docs/concepts/overview/components.md:{% include templates/concept.md %}
+content/cn/docs/concepts/policy/pod-security-policy.md:{% include code.html language="yaml" file="psp.yaml" ghlink="/docs/concepts/policy/psp.yaml" %}
+content/cn/docs/concepts/cluster-administration/cluster-administration-overview.md:{% include templates/concept.md %}
+content/cn/docs/concepts/cluster-administration/proxies.md:{% include templates/concept.md %}
+content/cn/docs/concepts/cluster-administration/federation.md:{% include templates/concept.md %}
+content/cn/docs/concepts/cluster-administration/cloud-providers.md:{% include templates/concept.md %}
+content/cn/docs/concepts/cluster-administration/device-plugins.md:{% include feature-state-alpha.md %}
+content/cn/docs/concepts/cluster-administration/device-plugins.md:{% include templates/concept.md %}
+content/cn/docs/tutorials/object-management-kubectl/object-management.md: {% include templates/concept.md %}
+content/cn/docs/tutorials/object-management-kubectl/imperative-object-management-command.md: {% include templates/concept.md %}
+content/cn/docs/tutorials/configuration/configure-redis-using-configmap.md:* {% include task-tutorial-prereqs.md %}
+content/cn/docs/tutorials/configuration/configure-redis-using-configmap.md:{% include templates/tutorial.md %}
+content/cn/docs/tutorials/stateful-application/basic-stateful-set.md:{% include code.html language="yaml" file="web.yaml" ghlink="/docs/tutorials/stateful-application/web.yaml" %}
+content/cn/docs/tutorials/stateful-application/basic-stateful-set.md:{% include code.html language="yaml" file="webp.yaml" ghlink="/docs/tutorials/stateful-application/webp.yaml" %}
+content/cn/docs/tutorials/stateful-application/basic-stateful-set.md:{% include templates/tutorial.md %}
+content/cn/docs/tutorials/stateful-application/zookeeper.md:{% include code.html language="yaml" file="zookeeper.yaml" ghlink="/docs/tutorials/stateful-application/zookeeper.yaml" %}
+content/cn/docs/tutorials/stateful-application/zookeeper.md:{% include templates/tutorial.md %}
+content/cn/docs/tutorials/services/source-ip.md:{% include task-tutorial-prereqs.md %}
+content/cn/docs/tutorials/services/source-ip.md:{% include templates/tutorial.md %}
+content/en/docs/home/supported-doc-versions.md:{% include templates/concept.md %}
+content/en/docs/home/contribute/write-new-topic.md:{% include templates/task.md %}
+content/en/docs/home/contribute/stage-documentation-changes.md:{% include templates/task.md %}
+content/en/docs/home/contribute/generated-reference/federation-api.md:{% include templates/task.md %}
+content/en/docs/home/contribute/generated-reference/kubernetes-api.md:{% include templates/task.md %}
+content/en/docs/home/contribute/generated-reference/kubectl.md:{% include templates/task.md %}
+content/en/docs/home/contribute/generated-reference/kubernetes-components.md:{% include templates/task.md %}
+content/en/docs/home/contribute/participating.md:{% include templates/concept.md %}
+content/en/docs/home/contribute/create-pull-request.md:{% include templates/task.md %}
+content/en/docs/home/contribute/page-templates.md:{% include templates/task.md %}</pre>{% endraw %}
+content/en/docs/home/contribute/page-templates.md:{% include templates/task.md %}</pre>
+content/en/docs/home/contribute/page-templates.md:{% include templates/tutorial.md %}</pre>{% endraw %}
+content/en/docs/home/contribute/page-templates.md:{% include templates/tutorial.md %}</pre>
+content/en/docs/home/contribute/page-templates.md:{% include templates/concept.md %}</pre>{% endraw %}
+content/en/docs/home/contribute/page-templates.md:{% include templates/concept.md %}</pre>
+content/en/docs/home/contribute/review-issues.md:{% include templates/concept.md %}
+content/en/docs/home/contribute/includes.md:{% include feature-state-stable.md %}
+content/en/docs/home/contribute/includes.md:{{ "{% include feature-state-stable.md " }}%}
+content/en/docs/home/contribute/includes.md:{{ "{% include feature-state-alpha.md " }}%}
+content/en/docs/home/contribute/includes.md:{{ "{% include feature-state-beta.md " }}%}
+content/en/docs/home/contribute/includes.md:{{ "{% include feature-state-stable.md " }}%}
+content/en/docs/home/contribute/includes.md:{{ "{% include feature-state-deprecated.md " }}%}
+content/en/docs/home/contribute/includes.md:{% include tabs.md %}
+content/en/docs/home/contribute/includes.md:{{ "{% include tabs.md " }}%}
+content/en/docs/home/contribute/includes.md:{{ "{% include tabs.md " }}%}
+content/en/docs/home/contribute/includes.md:`{{ "{% include tabs.md " }}%}` pulls in the tabs template code, which uses the `tab_names` and `tab_contents` variables to render the tab set.
+content/en/docs/home/contribute/includes.md:{% include templates/concept.md %}
+content/en/docs/home/contribute/style-guide.md:- In the **Before you begin** section, use `{{ "{% include tasks-tutorial-prereqs.md "}} %}`.
+content/en/docs/home/contribute/style-guide.md:{% include templates/concept.md %}
+content/en/docs/tasks/debug-application-cluster/get-shell-running-container.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/debug-application-cluster/get-shell-running-container.md:{% include code.html language="yaml" file="shell-demo.yaml" ghlink="/docs/tasks/debug-application-cluster/shell-demo.yaml" %}
+content/en/docs/tasks/debug-application-cluster/get-shell-running-container.md:{% include templates/task.md %}
+content/en/docs/tasks/debug-application-cluster/debug-application-introspection.md:{% include code.html language="yaml" file="nginx-dep.yaml" ghlink="/docs/tasks/debug-application-cluster/nginx-dep.yaml" %}
+content/en/docs/tasks/debug-application-cluster/debug-stateful-set.md:{% include templates/task.md %}
+content/en/docs/tasks/debug-application-cluster/logging-stackdriver.md:{% include code.html language="yaml" file="counter-pod.yaml" ghlink="/docs/tasks/debug-application-cluster/counter-pod.yaml" %}
+content/en/docs/tasks/debug-application-cluster/audit.md:{% include feature-state-beta.md %}
+content/en/docs/tasks/debug-application-cluster/audit.md:{% include code.html language="yaml" file="audit-policy.yaml" ghlink="/docs/tasks/debug-application-cluster/audit-policy.yaml" %}
+content/en/docs/tasks/debug-application-cluster/debug-init-containers.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/debug-application-cluster/debug-init-containers.md:{% include templates/task.md %}
+content/en/docs/tasks/debug-application-cluster/events-stackdriver.md:{% include code.html language="yaml" file="event-exporter-deploy.yaml" ghlink="/docs/tasks/debug-application-cluster/event-exporter-deploy.yaml" %}
+content/en/docs/tasks/debug-application-cluster/determine-reason-pod-failure.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/debug-application-cluster/determine-reason-pod-failure.md:{% include code.html language="yaml" file="termination.yaml" ghlink="/docs/tasks/debug-application-cluster/termination.yaml" %}
+content/en/docs/tasks/debug-application-cluster/determine-reason-pod-failure.md:{% include templates/task.md %}
+content/en/docs/tasks/debug-application-cluster/local-debugging.md:{% include templates/task.md %}
+content/en/docs/tasks/run-application/scale-stateful-set.md:{% include templates/task.md %}
+content/en/docs/tasks/run-application/delete-stateful-set.md:{% include templates/task.md %}
+content/en/docs/tasks/run-application/horizontal-pod-autoscale-walkthrough.md:{% include code.html language="yaml" file="hpa-php-apache.yaml" ghlink="/docs/tasks/run-application/hpa-php-apache.yaml" %}
+content/en/docs/tasks/run-application/run-single-instance-stateful-application.md:* {% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/run-application/run-single-instance-stateful-application.md:* {% include default-storage-class-prereqs.md %}
+content/en/docs/tasks/run-application/run-single-instance-stateful-application.md:{% include code.html language="yaml" file="mysql-deployment.yaml" ghlink="/docs/tasks/run-application/mysql-deployment.yaml" %}
+content/en/docs/tasks/run-application/run-single-instance-stateful-application.md:{% include templates/tutorial.md %}
+content/en/docs/tasks/run-application/run-replicated-stateful-application.md:* {% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/run-application/run-replicated-stateful-application.md:* {% include default-storage-class-prereqs.md %}
+content/en/docs/tasks/run-application/run-replicated-stateful-application.md:{% include code.html language="yaml" file="mysql-configmap.yaml" ghlink="/docs/tasks/run-application/mysql-configmap.yaml" %}
+content/en/docs/tasks/run-application/run-replicated-stateful-application.md:{% include code.html language="yaml" file="mysql-services.yaml" ghlink="/docs/tasks/run-application/mysql-services.yaml" %}
+content/en/docs/tasks/run-application/run-replicated-stateful-application.md:{% include code.html language="yaml" file="mysql-statefulset.yaml" ghlink="/docs/tasks/run-application/mysql-statefulset.yaml" %}
+content/en/docs/tasks/run-application/run-replicated-stateful-application.md:{% include templates/tutorial.md %}
+content/en/docs/tasks/run-application/configure-pdb.md:{% include templates/task.md %}
+content/en/docs/tasks/run-application/run-stateless-application-deployment.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/run-application/run-stateless-application-deployment.md:{% include code.html language="yaml" file="deployment.yaml" ghlink="/docs/tasks/run-application/deployment.yaml" %}
+content/en/docs/tasks/run-application/run-stateless-application-deployment.md:{% include code.html language="yaml" file="deployment-update.yaml" ghlink="/docs/tasks/run-application/deployment-update.yaml" %}
+content/en/docs/tasks/run-application/run-stateless-application-deployment.md:{% include code.html language="yaml" file="deployment-scale.yaml" ghlink="/docs/tasks/run-application/deployment-scale.yaml" %}
+content/en/docs/tasks/run-application/run-stateless-application-deployment.md:{% include templates/tutorial.md %}
+content/en/docs/tasks/run-application/update-api-object-kubectl-patch.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/run-application/update-api-object-kubectl-patch.md:{% include code.html language="yaml" file="deployment-patch-demo.yaml" ghlink="/docs/tasks/run-application/deployment-patch-demo.yaml" %}
+content/en/docs/tasks/run-application/update-api-object-kubectl-patch.md:{% include templates/task.md %}
+content/en/docs/tasks/run-application/force-delete-stateful-set-pod.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-federation/hpa.md:{% include feature-state-alpha.md %}
+content/en/docs/tasks/administer-federation/hpa.md:* {% include federated-task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-federation/hpa.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-federation/configmap.md:* {% include federated-task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-federation/configmap.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-federation/cluster.md:* {% include federated-task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-federation/cluster.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-federation/namespaces.md:* {% include federated-task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-federation/namespaces.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-federation/daemonset.md:* {% include federated-task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-federation/daemonset.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-federation/deployment.md:* {% include federated-task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-federation/deployment.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-federation/replicaset.md:* {% include federated-task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-federation/replicaset.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-federation/job.md:* {% include federated-task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-federation/job.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-federation/ingress.md:{% include templates/task.md %}
+content/en/docs/tasks/tools/install-minikube.md:{% include templates/task.md %}
+content/en/docs/tasks/tools/install-kubectl.md:{% include tabs.md %}
+content/en/docs/tasks/tools/install-kubectl.md:{% include templates/task.md %}
+content/en/docs/tasks/service-catalog/install-service-catalog-using-helm.md:{% include templates/task.md %}
+content/en/docs/tasks/service-catalog/install-service-catalog-using-sc.md:{% include templates/task.md %}
+content/en/docs/tasks/example-task-template.md:* {% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/example-task-template.md:{% include templates/task.md %}
+content/en/docs/tasks/configure-pod-container/quality-service-pod.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/configure-pod-container/quality-service-pod.md:{% include code.html language="yaml" file="qos-pod.yaml" ghlink="/docs/tasks/configure-pod-container/qos-pod.yaml" %}
+content/en/docs/tasks/configure-pod-container/quality-service-pod.md:{% include code.html language="yaml" file="qos-pod-2.yaml" ghlink="/docs/tasks/configure-pod-container/qos-pod-2.yaml" %}
+content/en/docs/tasks/configure-pod-container/quality-service-pod.md:{% include code.html language="yaml" file="qos-pod-3.yaml" ghlink="/docs/tasks/configure-pod-container/qos-pod-3.yaml" %}
+content/en/docs/tasks/configure-pod-container/quality-service-pod.md:{% include code.html language="yaml" file="qos-pod-4.yaml" ghlink="/docs/tasks/configure-pod-container/qos-pod-4.yaml" %}
+content/en/docs/tasks/configure-pod-container/quality-service-pod.md:{% include templates/task.md %}
+content/en/docs/tasks/configure-pod-container/configure-projected-volume-storage.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/configure-pod-container/configure-projected-volume-storage.md:{% include code.html language="yaml" file="projected-volume.yaml" ghlink="/docs/tasks/configure-pod-container/projected-volume.yaml" %}
+content/en/docs/tasks/configure-pod-container/configure-projected-volume-storage.md:{% include templates/task.md %}
+content/en/docs/tasks/configure-pod-container/pull-image-private-registry.md:* {% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/configure-pod-container/pull-image-private-registry.md:{% include code.html language="yaml" file="private-reg-pod.yaml" ghlink="/docs/tasks/configure-pod-container/private-reg-pod.yaml" %}
+content/en/docs/tasks/configure-pod-container/pull-image-private-registry.md:{% include templates/task.md %}
+content/en/docs/tasks/configure-pod-container/configure-volume-storage.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/configure-pod-container/configure-volume-storage.md:{% include code.html language="yaml" file="pod-redis.yaml" ghlink="/docs/tasks/configure-pod-container/pod-redis.yaml" %}
+content/en/docs/tasks/configure-pod-container/configure-volume-storage.md:{% include templates/task.md %}
+content/en/docs/tasks/configure-pod-container/configure-persistent-volume-storage.md:{% include code.html language="yaml" file="task-pv-volume.yaml" ghlink="/docs/tasks/configure-pod-container/task-pv-volume.yaml" %}
+content/en/docs/tasks/configure-pod-container/configure-persistent-volume-storage.md:{% include code.html language="yaml" file="task-pv-claim.yaml" ghlink="/docs/tasks/configure-pod-container/task-pv-claim.yaml" %}
+content/en/docs/tasks/configure-pod-container/configure-persistent-volume-storage.md:{% include code.html language="yaml" file="task-pv-pod.yaml" ghlink="/docs/tasks/configure-pod-container/task-pv-pod.yaml" %}
+content/en/docs/tasks/configure-pod-container/configure-persistent-volume-storage.md:{% include templates/task.md %}
+content/en/docs/tasks/configure-pod-container/assign-memory-resource.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/configure-pod-container/assign-memory-resource.md:{% include code.html language="yaml" file="memory-request-limit.yaml" ghlink="/docs/tasks/configure-pod-container/memory-request-limit.yaml" %}
+content/en/docs/tasks/configure-pod-container/assign-memory-resource.md:{% include code.html language="yaml" file="memory-request-limit-2.yaml" ghlink="/docs/tasks/configure-pod-container/memory-request-limit-2.yaml" %}
+content/en/docs/tasks/configure-pod-container/assign-memory-resource.md:{% include code.html language="yaml" file="memory-request-limit-3.yaml" ghlink="/docs/tasks/configure-pod-container/memory-request-limit-3.yaml" %}
+content/en/docs/tasks/configure-pod-container/assign-memory-resource.md:{% include templates/task.md %}
+content/en/docs/tasks/configure-pod-container/attach-handler-lifecycle-event.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/configure-pod-container/attach-handler-lifecycle-event.md:{% include code.html language="yaml" file="lifecycle-events.yaml" ghlink="/docs/tasks/configure-pod-container/lifecycle-events.yaml" %}
+content/en/docs/tasks/configure-pod-container/attach-handler-lifecycle-event.md:{% include templates/task.md %}
+content/en/docs/tasks/configure-pod-container/configure-pod-configmap.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/configure-pod-container/configure-pod-configmap.md:{% include templates/task.md %}
+content/en/docs/tasks/configure-pod-container/assign-cpu-resource.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/configure-pod-container/assign-cpu-resource.md:{% include code.html language="yaml" file="cpu-request-limit.yaml" ghlink="/docs/tasks/configure-pod-container/cpu-request-limit.yaml" %}
+content/en/docs/tasks/configure-pod-container/assign-cpu-resource.md:{% include code.html language="yaml" file="cpu-request-limit-2.yaml" ghlink="/docs/tasks/configure-pod-container/cpu-request-limit-2.yaml" %}
+content/en/docs/tasks/configure-pod-container/assign-cpu-resource.md:{% include templates/task.md %}
+content/en/docs/tasks/configure-pod-container/configure-pod-initialization.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/configure-pod-container/configure-pod-initialization.md:{% include code.html language="yaml" file="init-containers.yaml" ghlink="/docs/tasks/configure-pod-container/init-containers.yaml" %}
+content/en/docs/tasks/configure-pod-container/configure-pod-initialization.md:{% include templates/task.md %}
+content/en/docs/tasks/configure-pod-container/extended-resource.md:{% include feature-state-stable.md %}
+content/en/docs/tasks/configure-pod-container/extended-resource.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/configure-pod-container/extended-resource.md:{% include code.html language="yaml" file="extended-resource-pod.yaml" ghlink="/docs/tasks/configure-pod-container/extended-resource-pod.yaml" %}
+content/en/docs/tasks/configure-pod-container/extended-resource.md:{% include code.html language="yaml" file="extended-resource-pod-2.yaml" ghlink="/docs/tasks/configure-pod-container/extended-resource-pod-2.yaml" %}
+content/en/docs/tasks/configure-pod-container/extended-resource.md:{% include templates/task.md %}
+content/en/docs/tasks/configure-pod-container/security-context.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/configure-pod-container/security-context.md:{% include code.html language="yaml" file="security-context.yaml" ghlink="/docs/tasks/configure-pod-container/security-context.yaml" %}
+content/en/docs/tasks/configure-pod-container/security-context.md:{% include code.html language="yaml" file="security-context-2.yaml" ghlink="/docs/tasks/configure-pod-container/security-context-2.yaml" %}
+content/en/docs/tasks/configure-pod-container/security-context.md:{% include code.html language="yaml" file="security-context-3.yaml" ghlink="/docs/tasks/configure-pod-container/security-context-3.yaml" %}
+content/en/docs/tasks/configure-pod-container/security-context.md:{% include code.html language="yaml" file="security-context-4.yaml" ghlink="/docs/tasks/configure-pod-container/security-context-4.yaml" %}
+content/en/docs/tasks/configure-pod-container/security-context.md:{% include templates/task.md %}
+content/en/docs/tasks/configure-pod-container/assign-pods-nodes.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/configure-pod-container/assign-pods-nodes.md:{% include code.html language="yaml" file="pod.yaml" ghlink="/docs/tasks/configure-pod-container/pod.yaml" %}
+content/en/docs/tasks/configure-pod-container/assign-pods-nodes.md:{% include templates/task.md %}
+content/en/docs/tasks/configure-pod-container/configure-liveness-readiness-probes.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/configure-pod-container/configure-liveness-readiness-probes.md:{% include code.html language="yaml" file="exec-liveness.yaml" ghlink="/docs/tasks/configure-pod-container/exec-liveness.yaml" %}
+content/en/docs/tasks/configure-pod-container/configure-liveness-readiness-probes.md:{% include code.html language="yaml" file="http-liveness.yaml" ghlink="/docs/tasks/configure-pod-container/http-liveness.yaml" %}
+content/en/docs/tasks/configure-pod-container/configure-liveness-readiness-probes.md:{% include code.html language="yaml" file="tcp-liveness-readiness.yaml" ghlink="/docs/tasks/configure-pod-container/tcp-liveness-readiness.yaml" %}
+content/en/docs/tasks/configure-pod-container/configure-liveness-readiness-probes.md:{% include templates/task.md %}
+content/en/docs/tasks/configure-pod-container/share-process-namespace.md:{% include feature-state-alpha.md %}
+content/en/docs/tasks/configure-pod-container/share-process-namespace.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/configure-pod-container/share-process-namespace.md:{% include code.html language="yaml" file="share-process-namespace.yaml" ghlink="/docs/tasks/configure-pod-container/share-process-namespace.yaml" %}
+content/en/docs/tasks/configure-pod-container/share-process-namespace.md:{% include templates/task.md %}
+content/en/docs/tasks/manage-hugepages/scheduling-hugepages.md:{% include feature-state-beta.md %}
+content/en/docs/tasks/manage-hugepages/scheduling-hugepages.md:{% include templates/task.md %}
+content/en/docs/tasks/access-kubernetes-api/setup-extension-api-server.md:{% include templates/task.md %}
+content/en/docs/tasks/access-kubernetes-api/migrate-third-party-resource.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/access-kubernetes-api/migrate-third-party-resource.md:{% include templates/task.md %}
+content/en/docs/tasks/access-kubernetes-api/http-proxy-access-api.md:* {% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/access-kubernetes-api/http-proxy-access-api.md:{% include templates/task.md %}
+content/en/docs/tasks/access-kubernetes-api/extend-api-custom-resource-definitions.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/access-kubernetes-api/extend-api-custom-resource-definitions.md:{% include templates/task.md %}
+content/en/docs/tasks/access-kubernetes-api/extend-api-third-party-resource.md:{% assign for_k8s_version="1.7" %}{% include feature-state-deprecated.md %}
+content/en/docs/tasks/access-kubernetes-api/configure-aggregation-layer.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/access-kubernetes-api/configure-aggregation-layer.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/safely-drain-node.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/kubelet-config-file.md:{% include feature-state-beta.md %}
+content/en/docs/tasks/administer-cluster/kubelet-config-file.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/romana-network-policy.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/configure-multiple-schedulers.md:{% include code.html language="yaml" file="my-scheduler.yaml" ghlink="/docs/tasks/administer-cluster/my-scheduler.yaml" %}
+content/en/docs/tasks/administer-cluster/configure-multiple-schedulers.md:  {% include code.html language="yaml" file="pod1.yaml" ghlink="/docs/tasks/administer-cluster/pod1.yaml" %}
+content/en/docs/tasks/administer-cluster/configure-multiple-schedulers.md:  {% include code.html language="yaml" file="pod2.yaml" ghlink="/docs/tasks/administer-cluster/pod2.yaml" %}
+content/en/docs/tasks/administer-cluster/configure-multiple-schedulers.md:  {% include code.html language="yaml" file="pod3.yaml" ghlink="/docs/tasks/administer-cluster/pod3.yaml" %}
+content/en/docs/tasks/administer-cluster/namespaces-walkthrough.md:{% include code.html language="json" file="namespace-dev.json" ghlink="/docs/tasks/administer-cluster/namespace-dev.json" %}
+content/en/docs/tasks/administer-cluster/namespaces-walkthrough.md:{% include code.html language="json" file="namespace-prod.json" ghlink="/docs/tasks/administer-cluster/namespace-prod.json" %}
+content/en/docs/tasks/administer-cluster/dns-horizontal-autoscaling.md:* {% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/dns-horizontal-autoscaling.md:{% include code.html language="yaml" file="dns-horizontal-autoscaler.yaml" ghlink="/docs/tasks/administer-cluster/dns-horizontal-autoscaler.yaml" %}
+content/en/docs/tasks/administer-cluster/dns-horizontal-autoscaling.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/kms-provider.md:* {% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/kms-provider.md:{% assign for_k8s_version="v1.10" %}{% include feature-state-alpha.md %}
+content/en/docs/tasks/administer-cluster/kms-provider.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/quota-api-object.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/quota-api-object.md:{% include code.html language="yaml" file="quota-objects.yaml" ghlink="/docs/tasks/administer-cluster/quota-objects.yaml" %}
+content/en/docs/tasks/administer-cluster/quota-api-object.md:{% include code.html language="yaml" file="quota-objects-pvc.yaml" ghlink="/docs/tasks/administer-cluster/quota-objects-pvc.yaml" %}
+content/en/docs/tasks/administer-cluster/quota-api-object.md:{% include code.html language="yaml" file="quota-objects-pvc-2.yaml" ghlink="/docs/tasks/administer-cluster/quota-objects-pvc-2.yaml" %}
+content/en/docs/tasks/administer-cluster/quota-api-object.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/declare-network-policy.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/extended-resource-node.md:{% include feature-state-stable.md %}
+content/en/docs/tasks/administer-cluster/extended-resource-node.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/extended-resource-node.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/calico-network-policy.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/memory-constraint-namespace.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/memory-constraint-namespace.md:{% include code.html language="yaml" file="memory-constraints.yaml" ghlink="/docs/tasks/administer-cluster/memory-constraints.yaml" %}
+content/en/docs/tasks/administer-cluster/memory-constraint-namespace.md:{% include code.html language="yaml" file="memory-constraints-pod.yaml" ghlink="/docs/tasks/administer-cluster/memory-constraints-pod.yaml" %}
+content/en/docs/tasks/administer-cluster/memory-constraint-namespace.md:{% include code.html language="yaml" file="memory-constraints-pod-2.yaml" ghlink="/docs/tasks/administer-cluster/memory-constraints-pod-2.yaml" %}
+content/en/docs/tasks/administer-cluster/memory-constraint-namespace.md:{% include code.html language="yaml" file="memory-constraints-pod-3.yaml" ghlink="/docs/tasks/administer-cluster/memory-constraints-pod-3.yaml" %}
+content/en/docs/tasks/administer-cluster/memory-constraint-namespace.md:{% include code.html language="yaml" file="memory-constraints-pod-4.yaml" ghlink="/docs/tasks/administer-cluster/memory-constraints-pod-4.yaml" %}
+content/en/docs/tasks/administer-cluster/memory-constraint-namespace.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/cpu-default-namespace.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/cpu-default-namespace.md:{% include code.html language="yaml" file="cpu-defaults.yaml" ghlink="/docs/tasks/administer-cluster/cpu-defaults.yaml" %}
+content/en/docs/tasks/administer-cluster/cpu-default-namespace.md:{% include code.html language="yaml" file="cpu-defaults-pod.yaml" ghlink="/docs/tasks/administer-cluster/cpu-defaults-pod.yaml" %}
+content/en/docs/tasks/administer-cluster/cpu-default-namespace.md:{% include code.html language="yaml" file="cpu-defaults-pod-2.yaml" ghlink="/docs/tasks/administer-cluster/cpu-defaults-pod-2.yaml" %}
+content/en/docs/tasks/administer-cluster/cpu-default-namespace.md:{% include code.html language="yaml" file="cpu-defaults-pod-3.yaml" ghlink="/docs/tasks/administer-cluster/cpu-defaults-pod-3.yaml" %}
+content/en/docs/tasks/administer-cluster/cpu-default-namespace.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/coredns.md:{% include feature-state-beta.md %}
+content/en/docs/tasks/administer-cluster/coredns.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/coredns.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/encrypt-data.md:* {% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/encrypt-data.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/reconfigure-kubelet.md:{% include feature-state-alpha.md %}
+content/en/docs/tasks/administer-cluster/reconfigure-kubelet.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/namespaces.md:{% include code.html language="json" file="namespace-dev.json" ghlink="/docs/tasks/administer-cluster/namespace-dev.json" %}
+content/en/docs/tasks/administer-cluster/namespaces.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/ip-masq-agent.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/ip-masq-agent.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/kube-router-network-policy.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/dns-custom-nameservers.md:* {% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/dns-custom-nameservers.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/weave-network-policy.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/cilium-network-policy.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/cilium-network-policy.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/quota-memory-cpu-namespace.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/quota-memory-cpu-namespace.md:{% include code.html language="yaml" file="quota-mem-cpu.yaml" ghlink="/docs/tasks/administer-cluster/quota-mem-cpu.yaml" %}
+content/en/docs/tasks/administer-cluster/quota-memory-cpu-namespace.md:{% include code.html language="yaml" file="quota-mem-cpu-pod.yaml" ghlink="/docs/tasks/administer-cluster/quota-mem-cpu-pod.yaml" %}
+content/en/docs/tasks/administer-cluster/quota-memory-cpu-namespace.md:{% include code.html language="yaml" file="quota-mem-cpu-pod-2.yaml" ghlink="/docs/tasks/administer-cluster/quota-mem-cpu-pod-2.yaml" %}
+content/en/docs/tasks/administer-cluster/quota-memory-cpu-namespace.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/upgrade-downgrade/kubeadm-upgrade-ha.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/upgrade-downgrade/kubeadm-upgrade-1-7.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/upgrade-downgrade/kubeadm-upgrade-1-9.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/upgrade-downgrade/kubeadm-upgrade-1-8.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/dns-debugging-resolution.md:* {% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/dns-debugging-resolution.md:{% include code.html language="yaml" file="busybox.yaml" ghlink="/docs/tasks/administer-cluster/busybox.yaml" %}
+content/en/docs/tasks/administer-cluster/dns-debugging-resolution.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/quota-pod-namespace.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/quota-pod-namespace.md:{% include code.html language="yaml" file="quota-pod.yaml" ghlink="/docs/tasks/administer-cluster/quota-pod.yaml" %}
+content/en/docs/tasks/administer-cluster/quota-pod-namespace.md:{% include code.html language="yaml" file="quota-pod-deployment.yaml" ghlink="/docs/tasks/administer-cluster/quota-pod-deployment.yaml" %}
+content/en/docs/tasks/administer-cluster/quota-pod-namespace.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/storage-object-in-use-protection.md:{% assign for_k8s_version="v1.10" %}{% include feature-state-beta.md %}
+content/en/docs/tasks/administer-cluster/storage-object-in-use-protection.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/access-cluster-services.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/access-cluster-services.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/cpu-constraint-namespace.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/cpu-constraint-namespace.md:{% include code.html language="yaml" file="cpu-constraints.yaml" ghlink="/docs/tasks/administer-cluster/cpu-constraints.yaml" %}
+content/en/docs/tasks/administer-cluster/cpu-constraint-namespace.md:{% include code.html language="yaml" file="cpu-constraints-pod.yaml" ghlink="/docs/tasks/administer-cluster/cpu-constraints-pod.yaml" %}
+content/en/docs/tasks/administer-cluster/cpu-constraint-namespace.md:{% include code.html language="yaml" file="cpu-constraints-pod-2.yaml" ghlink="/docs/tasks/administer-cluster/cpu-constraints-pod-2.yaml" %}
+content/en/docs/tasks/administer-cluster/cpu-constraint-namespace.md:{% include code.html language="yaml" file="cpu-constraints-pod-3.yaml" ghlink="/docs/tasks/administer-cluster/cpu-constraints-pod-3.yaml" %}
+content/en/docs/tasks/administer-cluster/cpu-constraint-namespace.md:{% include code.html language="yaml" file="cpu-constraints-pod-4.yaml" ghlink="/docs/tasks/administer-cluster/cpu-constraints-pod-4.yaml" %}
+content/en/docs/tasks/administer-cluster/cpu-constraint-namespace.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/memory-default-namespace.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/memory-default-namespace.md:{% include code.html language="yaml" file="memory-defaults.yaml" ghlink="/docs/tasks/administer-cluster/memory-defaults.yaml" %}
+content/en/docs/tasks/administer-cluster/memory-default-namespace.md:{% include code.html language="yaml" file="memory-defaults-pod.yaml" ghlink="/docs/tasks/administer-cluster/memory-defaults-pod.yaml" %}
+content/en/docs/tasks/administer-cluster/memory-default-namespace.md:{% include code.html language="yaml" file="memory-defaults-pod-2.yaml" ghlink="/docs/tasks/administer-cluster/memory-defaults-pod-2.yaml" %}
+content/en/docs/tasks/administer-cluster/memory-default-namespace.md:{% include code.html language="yaml" file="memory-defaults-pod-3.yaml" ghlink="/docs/tasks/administer-cluster/memory-defaults-pod-3.yaml" %}
+content/en/docs/tasks/administer-cluster/memory-default-namespace.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/change-default-storage-class.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/change-default-storage-class.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/sysctl-cluster.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/sysctl-cluster.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/pvc-protection.md:{% assign for_k8s_version="v1.9" %}{% include feature-state-alpha.md %}
+content/en/docs/tasks/administer-cluster/pvc-protection.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/securing-a-cluster.md:* {% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/securing-a-cluster.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/limit-storage-consumption.md:* {% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/limit-storage-consumption.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/change-pv-reclaim-policy.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/change-pv-reclaim-policy.md:{% include templates/task.md %}
+content/en/docs/tasks/administer-cluster/cpu-management-policies.md:{% include feature-state-beta.md %}
+content/en/docs/tasks/administer-cluster/running-cloud-controller.md:{% include feature-state-alpha.md %}
+content/en/docs/tasks/administer-cluster/running-cloud-controller.md:{% include code.html language="yaml" file="persistent-volume-label-initializer-config.yaml" ghlink="/docs/tasks/administer-cluster/persistent-volume-label-initializer-config.yaml" %}
+content/en/docs/tasks/administer-cluster/running-cloud-controller.md:{% include code.html language="yaml" file="cloud-controller-manager-daemonset-example.yaml" ghlink="/docs/tasks/administer-cluster/cloud-controller-manager-daemonset-example.yaml" %}
+content/en/docs/tasks/administer-cluster/access-cluster-api.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/administer-cluster/access-cluster-api.md:{% include templates/task.md %}
+content/en/docs/tasks/access-application-cluster/create-external-load-balancer.md:* {% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/access-application-cluster/create-external-load-balancer.md:{% include templates/task.md %}
+content/en/docs/tasks/access-application-cluster/port-forward-access-application-cluster.md:* {% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/access-application-cluster/port-forward-access-application-cluster.md:{% include templates/task.md %}
+content/en/docs/tasks/access-application-cluster/service-access-application-cluster.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/access-application-cluster/service-access-application-cluster.md:{% include templates/tutorial.md %}
+content/en/docs/tasks/access-application-cluster/load-balance-access-application-cluster.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/access-application-cluster/load-balance-access-application-cluster.md:{% include templates/tutorial.md %}
+content/en/docs/tasks/access-application-cluster/list-all-running-container-images.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/access-application-cluster/list-all-running-container-images.md:{% include templates/task.md %}
+content/en/docs/tasks/access-application-cluster/connecting-frontend-backend.md:* {% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/access-application-cluster/connecting-frontend-backend.md:{% include code.html language="yaml" file="hello.yaml" ghlink="/docs/tasks/access-application-cluster/hello.yaml" %}
+content/en/docs/tasks/access-application-cluster/connecting-frontend-backend.md:{% include code.html language="yaml" file="hello-service.yaml" ghlink="/docs/tasks/access-application-cluster/hello-service.yaml" %}
+content/en/docs/tasks/access-application-cluster/connecting-frontend-backend.md:{% include code.html file="frontend/frontend.conf" ghlink="/docs/tasks/access-application-cluster/frontend/frontend.conf" %}
+content/en/docs/tasks/access-application-cluster/connecting-frontend-backend.md:{% include code.html language="yaml" file="frontend.yaml" ghlink="/docs/tasks/access-application-cluster/frontend.yaml" %}
+content/en/docs/tasks/access-application-cluster/connecting-frontend-backend.md:{% include templates/tutorial.md %}
+content/en/docs/tasks/access-application-cluster/configure-access-multiple-clusters.md:{% include templates/task.md %}
+content/en/docs/tasks/access-application-cluster/communicate-containers-same-pod-shared-volume.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/access-application-cluster/communicate-containers-same-pod-shared-volume.md:{% include code.html language="yaml" file="two-container-pod.yaml" ghlink="/docs/tasks/access-application-cluster/two-container-pod.yaml" %}
+content/en/docs/tasks/access-application-cluster/communicate-containers-same-pod-shared-volume.md:{% include templates/task.md %}
+content/en/docs/tasks/tls/certificate-rotation.md:{% include templates/task.md %}
+content/en/docs/tasks/federation/set-up-coredns-provider-federation.md:{% include code.html language="yaml" file="Values.yaml" ghlink="/docs/tasks/federation/Values.yaml" %}
+content/en/docs/tasks/federation/set-up-coredns-provider-federation.md:{% include templates/tutorial.md %}
+content/en/docs/tasks/federation/set-up-placement-policies-federation.md:{% include code.html language="yaml" file="scheduling-policy-admission.yaml" ghlink="/docs/tasks/federation/scheduling-policy-admission.yaml" %}
+content/en/docs/tasks/federation/set-up-placement-policies-federation.md:{% include code.html language="yaml" file="policy-engine-service.yaml" ghlink="/docs/tasks/federation/policy-engine-service.yaml" %}
+content/en/docs/tasks/federation/set-up-placement-policies-federation.md:{% include code.html language="yaml" file="policy-engine-deployment.yaml" ghlink="/docs/tasks/federation/policy-engine-deployment.yaml" %}
+content/en/docs/tasks/federation/set-up-placement-policies-federation.md:{% include code.html language="yaml" file="policy.rego" ghlink="/docs/tasks/federation/policy.rego" %}
+content/en/docs/tasks/federation/set-up-placement-policies-federation.md:{% include code.html language="yaml" file="replicaset-example-policy.yaml" ghlink="/docs/tasks/federation/replicaset-example-policy.yaml" %}
+content/en/docs/tasks/federation/set-up-placement-policies-federation.md:{% include templates/task.md %}
+content/en/docs/tasks/job/coarse-parallel-processing-work-queue/_index.md:{% include code.html language="python" file="worker.py" ghlink="/docs/tasks/job/coarse-parallel-processing-work-queue/worker.py" %}
+content/en/docs/tasks/job/coarse-parallel-processing-work-queue/_index.md:{% include code.html language="yaml" file="job.yaml" ghlink="/docs/tasks/job/coarse-parallel-processing-work-queue/job.yaml" %}
+content/en/docs/tasks/job/parallel-processing-expansion.md:{% include code.html language="yaml" file="job.yaml" ghlink="/docs/tasks/job/job.yaml" %}
+content/en/docs/tasks/job/fine-parallel-processing-work-queue/_index.md:{% include code.html language="python" file="worker.py" ghlink="/docs/tasks/job/fine-parallel-processing-work-queue/worker.py" %}
+content/en/docs/tasks/job/fine-parallel-processing-work-queue/_index.md:{% include code.html language="yaml" file="job.yaml" ghlink="/docs/tasks/job/fine-parallel-processing-work-queue/job.yaml" %}
+content/en/docs/tasks/extend-kubectl/kubectl-plugins.md:{% include feature-state-alpha.md %}
+content/en/docs/tasks/extend-kubectl/kubectl-plugins.md:{% include templates/task.md %}
+content/en/docs/tasks/inject-data-application/define-command-argument-container.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/inject-data-application/define-command-argument-container.md:{% include code.html language="yaml" file="commands.yaml" ghlink="/docs/tasks/inject-data-application/commands.yaml" %}
+content/en/docs/tasks/inject-data-application/define-command-argument-container.md:{% include templates/task.md %}
+content/en/docs/tasks/inject-data-application/distribute-credentials-secure.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/inject-data-application/distribute-credentials-secure.md:{% include code.html language="yaml" file="secret.yaml" ghlink="/docs/tasks/inject-data-application/secret.yaml" %}
+content/en/docs/tasks/inject-data-application/distribute-credentials-secure.md:{% include code.html language="yaml" file="secret-pod.yaml" ghlink="/docs/tasks/inject-data-application/secret-pod.yaml" %}
+content/en/docs/tasks/inject-data-application/distribute-credentials-secure.md:{% include code.html language="yaml" file="secret-envars-pod.yaml" ghlink="/docs/tasks/inject-data-application/secret-envars-pod.yaml" %}
+content/en/docs/tasks/inject-data-application/distribute-credentials-secure.md:{% include templates/task.md %}
+content/en/docs/tasks/inject-data-application/define-environment-variable-container.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/inject-data-application/define-environment-variable-container.md:{% include code.html language="yaml" file="envars.yaml" ghlink="/docs/tasks/inject-data-application/envars.yaml" %}
+content/en/docs/tasks/inject-data-application/define-environment-variable-container.md:{% include templates/task.md %}
+content/en/docs/tasks/inject-data-application/downward-api-volume-expose-pod-information.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/inject-data-application/downward-api-volume-expose-pod-information.md:{% include code.html language="yaml" file="dapi-volume.yaml" ghlink="/docs/tasks/inject-data-application/dapi-volume.yaml" %}
+content/en/docs/tasks/inject-data-application/downward-api-volume-expose-pod-information.md:{% include code.html language="yaml" file="dapi-volume-resources.yaml" ghlink="/docs/tasks/inject-data-application/dapi-volume-resources.yaml" %}
+content/en/docs/tasks/inject-data-application/downward-api-volume-expose-pod-information.md:{% include templates/task.md %}
+content/en/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-preset.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-preset.yaml" %}
+content/en/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-pod.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-pod.yaml" %}
+content/en/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-merged.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-merged.yaml" %}
+content/en/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-pod.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-pod.yaml" %}
+content/en/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-configmap.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-configmap.yaml" %}
+content/en/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-allow-db.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-allow-db.yaml" %}
+content/en/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-allow-db-merged.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-allow-db-merged.yaml" %}
+content/en/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-replicaset.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-replicaset.yaml" %}
+content/en/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-preset.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-preset.yaml" %}
+content/en/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-replicaset-merged.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-replicaset-merged.yaml" %}
+content/en/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-pod.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-pod.yaml" %}
+content/en/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-preset.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-preset.yaml" %}
+content/en/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-proxy.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-proxy.yaml" %}
+content/en/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-multi-merged.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-multi-merged.yaml" %}
+content/en/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-conflict-pod.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-conflict-pod.yaml" %}
+content/en/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-conflict-preset.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-conflict-preset.yaml" %}
+content/en/docs/tasks/inject-data-application/podpreset.md:{% include code.html language="yaml" file="podpreset-conflict-pod.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-conflict-pod.yaml" %}
+content/en/docs/tasks/inject-data-application/environment-variable-expose-pod-information.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tasks/inject-data-application/environment-variable-expose-pod-information.md:{% include code.html language="yaml" file="dapi-envars-pod.yaml" ghlink="/docs/tasks/inject-data-application/dapi-envars-pod.yaml" %}
+content/en/docs/tasks/inject-data-application/environment-variable-expose-pod-information.md:{% include code.html language="yaml" file="dapi-envars-container.yaml" ghlink="/docs/tasks/inject-data-application/dapi-envars-container.yaml" %}
+content/en/docs/tasks/inject-data-application/environment-variable-expose-pod-information.md:{% include templates/task.md %}
+content/en/docs/tasks/manage-daemon/update-daemon-set.md:{% include templates/task.md %}
+content/en/docs/tasks/manage-daemon/rollback-daemon-set.md:{% include templates/task.md %}
+content/en/docs/getting-started-guides/ubuntu/storage.md:{% include templates/task.md %}
+content/en/docs/getting-started-guides/ubuntu/networking.md:{% include templates/task.md %}
+content/en/docs/getting-started-guides/ubuntu/troubleshooting.md:{% include templates/task.md %}
+content/en/docs/getting-started-guides/ubuntu/glossary.md:{% include templates/concept.md %}
+content/en/docs/getting-started-guides/ubuntu/validation.md:{% include templates/task.md %}
+content/en/docs/getting-started-guides/ubuntu/upgrades.md:{% include templates/task.md %}
+content/en/docs/getting-started-guides/ubuntu/rancher.md:{% include templates/task.md %}
+content/en/docs/getting-started-guides/ubuntu/backups.md:{% include templates/task.md %}
+content/en/docs/getting-started-guides/ubuntu/decommissioning.md:{% include templates/task.md %}
+content/en/docs/getting-started-guides/ubuntu/logging.md:{% include templates/task.md %}
+content/en/docs/getting-started-guides/ubuntu/scaling.md:{% include templates/task.md %}
+content/en/docs/getting-started-guides/ubuntu/installation.md:{% include templates/task.md %}
+content/en/docs/getting-started-guides/ubuntu/monitoring.md:{% include templates/task.md %}
+content/en/docs/getting-started-guides/ubuntu/local.md:{% include templates/task.md %}
+content/en/docs/getting-started-guides/ubuntu/operational-considerations.md:{% include templates/task.md %}
+content/en/docs/getting-started-guides/ubuntu/_index.md:{% include templates/concept.md %}
+content/en/docs/getting-started-guides/ubuntu/security.md:{% include templates/task.md %}
+content/en/docs/user-guide/walkthrough/k8s201.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/user-guide/walkthrough/k8s201.md:{% include code.html language="yaml" file="pod-nginx-with-label.yaml" ghlink="/docs/user-guide/walkthrough/pod-nginx-with-label.yaml" %}
+content/en/docs/user-guide/walkthrough/k8s201.md:{% include code.html language="yaml" file="deployment.yaml" ghlink="/docs/user-guide/walkthrough/deployment.yaml" %}
+content/en/docs/user-guide/walkthrough/k8s201.md:{% include code.html language="yaml" file="deployment-update.yaml" ghlink="/docs/user-guide/walkthrough/deployment-update.yaml" %}
+content/en/docs/user-guide/walkthrough/k8s201.md:{% include code.html language="yaml" file="service.yaml" ghlink="/docs/user-guide/walkthrough/service.yaml" %}
+content/en/docs/user-guide/walkthrough/k8s201.md:{% include code.html language="yaml" file="pod-with-http-healthcheck.yaml" ghlink="/docs/user-guide/walkthrough/pod-with-http-healthcheck.yaml" %}
+content/en/docs/user-guide/walkthrough/k8s201.md:{% include code.html language="yaml" file="pod-with-tcp-socket-healthcheck.yaml" ghlink="/docs/user-guide/walkthrough/pod-with-tcp-socket-healthcheck.yaml" %}
+content/en/docs/user-guide/walkthrough/_index.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/user-guide/walkthrough/_index.md:{% include code.html language="yaml" file="pod-nginx.yaml" ghlink="/docs/user-guide/walkthrough/pod-nginx.yaml" %}
+content/en/docs/user-guide/walkthrough/_index.md:{% include code.html language="yaml" file="pod-redis.yaml" ghlink="/docs/user-guide/walkthrough/pod-redis.yaml" %}
+content/en/docs/setup/independent/install-kubeadm.md:{% include tabs.md %}
+content/en/docs/setup/independent/install-kubeadm.md:{% include tabs.md %}
+content/en/docs/setup/independent/install-kubeadm.md:{% include templates/task.md %}
+content/en/docs/setup/independent/create-cluster-kubeadm.md:{% include tabs.md %}
+content/en/docs/setup/independent/create-cluster-kubeadm.md:{% include templates/task.md %}
+content/en/docs/setup/independent/high-availability.md:{% include tabs.md %}
+content/en/docs/setup/independent/high-availability.md:{% include tabs.md %}
+content/en/docs/setup/independent/high-availability.md:{% include templates/task.md %}
+content/en/docs/admin/authentication.md:{% assign for_k8s_version="v1.10" %}{% include feature-state-alpha.md %}
+content/en/docs/admin/bootstrap-tokens.md:{% include feature-state-beta.md %}
+content/en/docs/admin/admission-controllers.md:{% assign for_k8s_version="v1.10" %}{% include feature-state-beta.md %}
+content/en/docs/admin/authorization/abac.md:{% include templates/concept.md %}
+content/en/docs/admin/authorization/webhook.md:{% include templates/concept.md %}
+content/en/docs/admin/authorization/_index.md:{% include templates/concept.md %}
+content/en/docs/admin/high-availability/building.md:{% include feature-state-alpha.md %}
+content/en/docs/concepts/configuration/assign-pod-node.md:{% include code.html language="yaml" file="pod.yaml" ghlink="/docs/concepts/configuration/pod.yaml" %}
+content/en/docs/concepts/configuration/assign-pod-node.md:{% include code.html language="yaml" file="pod-with-node-affinity.yaml" ghlink="/docs/concepts/configuration/pod-with-node-affinity.yaml" %}
+content/en/docs/concepts/configuration/assign-pod-node.md:{% include code.html language="yaml" file="pod-with-pod-affinity.yaml" ghlink="/docs/concepts/configuration/pod-with-pod-affinity.yaml" %}
+content/en/docs/concepts/configuration/overview.md:{% include templates/concept.md %}
+content/en/docs/concepts/configuration/pod-priority-preemption.md:{% include feature-state-alpha.md %}
+content/en/docs/concepts/configuration/pod-priority-preemption.md:{% include templates/concept.md %}
+content/en/docs/concepts/configuration/organize-cluster-access-kubeconfig.md:{% include templates/concept.md %}
+content/en/docs/concepts/configuration/manage-compute-resources-container.md:{% include feature-state-beta.md %}
+content/en/docs/concepts/configuration/manage-compute-resources-container.md:{% include templates/concept.md %}
+content/en/docs/concepts/example-concept-template.md:{% include templates/concept.md %}
+content/en/docs/concepts/service-catalog/_index.md:{% include templates/concept.md %}
+content/en/docs/concepts/storage/storage-classes.md:{% assign for_k8s_version="v1.10" %}{% include feature-state-beta.md %}
+content/en/docs/concepts/storage/persistent-volumes.md:{% assign for_k8s_version="v1.10" %}{% include feature-state-beta.md %}
+content/en/docs/concepts/storage/volumes.md:{% assign for_k8s_version="v1.10" %}{% include feature-state-beta.md %}
+content/en/docs/concepts/storage/volumes.md:{% include tabs.md %}
+content/en/docs/concepts/storage/volumes.md:{% assign for_k8s_version="v1.10" %}{% include feature-state-beta.md %}
+content/en/docs/concepts/storage/volumes.md:{% assign for_k8s_version="v1.10" %}{% include feature-state-beta.md %}
+content/en/docs/concepts/storage/volumes.md:{% include templates/concept.md %}
+content/en/docs/concepts/storage/dynamic-provisioning.md:{% include templates/concept.md %}
+content/en/docs/concepts/api-extension/custom-resources.md:{% include templates/concept.md %}
+content/en/docs/concepts/api-extension/apiserver-aggregation.md:{% include templates/concept.md %}
+content/en/docs/concepts/services-networking/connect-applications-service.md:{% include code.html language="yaml" file="run-my-nginx.yaml" ghlink="/docs/concepts/services-networking/run-my-nginx.yaml" %}
+content/en/docs/concepts/services-networking/connect-applications-service.md:{% include code.html language="yaml" file="nginx-svc.yaml" ghlink="/docs/concepts/services-networking/nginx-svc.yaml" %}
+content/en/docs/concepts/services-networking/connect-applications-service.md:{% include code.html language="yaml" file="nginx-secure-app.yaml" ghlink="/docs/concepts/services-networking/nginx-secure-app.yaml" %}
+content/en/docs/concepts/services-networking/connect-applications-service.md:{% include code.html language="yaml" file="curlpod.yaml" ghlink="/docs/concepts/services-networking/curlpod.yaml" %}
+content/en/docs/concepts/services-networking/add-entries-to-pod-etc-hosts-with-host-aliases.md:{% include code.html language="yaml" file="hostaliases-pod.yaml" ghlink="/docs/concepts/services-networking/hostaliases-pod.yaml" %}
+content/en/docs/concepts/services-networking/service.md:{% assign for_k8s_version="v1.9" %}{% include feature-state-beta.md %}
+content/en/docs/concepts/services-networking/service.md:{% include tabs.md %}
+content/en/docs/concepts/services-networking/ingress.md:{% include code.html language="yaml" file="ingress.yaml" ghlink="/docs/concepts/services-networking/ingress.yaml" %}
+content/en/docs/concepts/services-networking/ingress.md:{% include templates/concept.md %}
+content/en/docs/concepts/services-networking/dns-pod-service.md:{% include code.html language="yaml" file="custom-dns.yaml" ghlink="/docs/concepts/services-networking/custom-dns.yaml" %}
+content/en/docs/concepts/services-networking/dns-pod-service.md:{% include templates/concept.md %}
+content/en/docs/concepts/workloads/pods/pod-lifecycle.md:{% include templates/concept.md %}
+content/en/docs/concepts/workloads/pods/podpreset.md:{% include templates/concept.md %}
+content/en/docs/concepts/workloads/pods/disruptions.md:{% include templates/concept.md %}
+content/en/docs/concepts/workloads/pods/pod-overview.md:{% include templates/concept.md %}
+content/en/docs/concepts/workloads/pods/init-containers.md:{% include templates/concept.md %}
+content/en/docs/concepts/workloads/controllers/cron-jobs.md:{% include code.html language="yaml" file="cronjob.yaml" ghlink="/docs/concepts/workloads/controllers/cronjob.yaml" %}
+content/en/docs/concepts/workloads/controllers/daemonset.md:{% include code.html language="yaml" file="daemonset.yaml" ghlink="/docs/concepts/workloads/controllers/daemonset.yaml" %}
+content/en/docs/concepts/workloads/controllers/garbage-collection.md:{% include code.html language="yaml" file="my-repset.yaml" ghlink="/docs/concepts/workloads/controllers/my-repset.yaml" %}
+content/en/docs/concepts/workloads/controllers/garbage-collection.md:{% include templates/concept.md %}
+content/en/docs/concepts/workloads/controllers/jobs-run-to-completion.md:{% include code.html language="yaml" file="job.yaml" ghlink="/docs/concepts/workloads/controllers/job.yaml" %}
+content/en/docs/concepts/workloads/controllers/deployment.md:{% include code.html language="yaml" file="nginx-deployment.yaml" ghlink="/docs/concepts/workloads/controllers/nginx-deployment.yaml" %}
+content/en/docs/concepts/workloads/controllers/deployment.md:{% include templates/concept.md %}
+content/en/docs/concepts/workloads/controllers/statefulset.md:{% include templates/concept.md %}
+content/en/docs/concepts/workloads/controllers/replicaset.md:{% include code.html language="yaml" file="frontend.yaml" ghlink="/docs/concepts/workloads/controllers/frontend.yaml" %}
+content/en/docs/concepts/workloads/controllers/replicaset.md:{% include code.html language="yaml" file="hpa-rs.yaml" ghlink="/docs/concepts/workloads/controllers/hpa-rs.yaml" %}
+content/en/docs/concepts/workloads/controllers/replicaset.md:{% include templates/concept.md %}
+content/en/docs/concepts/workloads/controllers/replicationcontroller.md:{% include code.html language="yaml" file="replication.yaml" ghlink="/docs/concepts/workloads/controllers/replication.yaml" %}
+content/en/docs/concepts/workloads/controllers/replicationcontroller.md:{% include templates/concept.md %}
+content/en/docs/concepts/containers/images.md:{% include templates/concept.md %}
+content/en/docs/concepts/containers/container-environment-variables.md:{% include templates/concept.md %}
+content/en/docs/concepts/containers/container-lifecycle-hooks.md:{% include templates/concept.md %}
+content/en/docs/concepts/overview/object-management-kubectl/imperative-config.md:{% include templates/concept.md %}
+content/en/docs/concepts/overview/object-management-kubectl/overview.md:{% include templates/concept.md %}
+content/en/docs/concepts/overview/object-management-kubectl/imperative-command.md:{% include templates/concept.md %}
+content/en/docs/concepts/overview/object-management-kubectl/declarative-config.md:{% include code.html language="yaml" file="simple_deployment.yaml" ghlink="/docs/concepts/overview/object-management-kubectl/simple_deployment.yaml" %}
+content/en/docs/concepts/overview/object-management-kubectl/declarative-config.md:{% include code.html language="yaml" file="simple_deployment.yaml" ghlink="/docs/concepts/overview/object-management-kubectl/simple_deployment.yaml" %}
+content/en/docs/concepts/overview/object-management-kubectl/declarative-config.md:{% include code.html language="yaml" file="update_deployment.yaml" ghlink="/docs/concepts/overview/object-management-kubectl/update_deployment.yaml" %}
+content/en/docs/concepts/overview/object-management-kubectl/declarative-config.md:{% include code.html language="yaml" file="update_deployment.yaml" ghlink="/docs/concepts/overview/object-management-kubectl/update_deployment.yaml" %}
+content/en/docs/concepts/overview/object-management-kubectl/declarative-config.md:{% include code.html language="yaml" file="simple_deployment.yaml" ghlink="/docs/concepts/overview/object-management-kubectl/simple_deployment.yaml" %}
+content/en/docs/concepts/overview/object-management-kubectl/declarative-config.md:{% include templates/concept.md %}
+content/en/docs/concepts/overview/working-with-objects/kubernetes-objects.md:{% include code.html language="yaml" file="nginx-deployment.yaml" ghlink="/docs/concepts/overview/working-with-objects/nginx-deployment.yaml" %}
+content/en/docs/concepts/overview/working-with-objects/kubernetes-objects.md:{% include templates/concept.md %}
+content/en/docs/concepts/overview/working-with-objects/annotations.md:{% include templates/concept.md %}
+content/en/docs/concepts/overview/extending.md:{% include templates/concept.md %}
+content/en/docs/concepts/overview/components.md:{% include templates/concept.md %}
+content/en/docs/concepts/overview/what-is-kubernetes.md:{% include templates/concept.md %}
+content/en/docs/concepts/policy/pod-security-policy.md:{% include feature-state-beta.md %}
+content/en/docs/concepts/policy/pod-security-policy.md:{% include code.html language="yaml" file="example-psp.yaml" ghlink="/docs/concepts/policy/example-psp.yaml" %}
+content/en/docs/concepts/policy/pod-security-policy.md:{% include code.html language="yaml" file="privileged-psp.yaml" ghlink="/docs/concepts/policy/privileged-psp.yaml" %}
+content/en/docs/concepts/policy/pod-security-policy.md:{% include code.html language="yaml" file="restricted-psp.yaml" ghlink="/docs/concepts/policy/restricted-psp.yaml" %}
+content/en/docs/concepts/cluster-administration/cluster-administration-overview.md:{% include templates/concept.md %}
+content/en/docs/concepts/cluster-administration/manage-deployment.md:{% include code.html language="yaml" file="nginx-app.yaml" ghlink="/docs/concepts/cluster-administration/nginx-app.yaml" %}
+content/en/docs/concepts/cluster-administration/proxies.md:{% include templates/concept.md %}
+content/en/docs/concepts/cluster-administration/federation.md:{% include templates/concept.md %}
+content/en/docs/concepts/cluster-administration/cloud-providers.md:{% include templates/concept.md %}
+content/en/docs/concepts/cluster-administration/controller-metrics.md:{% include templates/concept.md %}
+content/en/docs/concepts/cluster-administration/logging.md:{% include code.html language="yaml" file="counter-pod.yaml" ghlink="/docs/tasks/debug-application-cluster/counter-pod.yaml" %}
+content/en/docs/concepts/cluster-administration/logging.md:{% include code.html language="yaml" file="two-files-counter-pod.yaml" ghlink="/docs/concepts/cluster-administration/two-files-counter-pod.yaml" %}
+content/en/docs/concepts/cluster-administration/logging.md:{% include code.html language="yaml" file="two-files-counter-pod-streaming-sidecar.yaml" ghlink="/docs/concepts/cluster-administration/two-files-counter-pod-streaming-sidecar.yaml" %}
+content/en/docs/concepts/cluster-administration/logging.md:{% include code.html language="yaml" file="fluentd-sidecar-config.yaml" ghlink="/docs/concepts/cluster-administration/fluentd-sidecar-config.yaml" %}
+content/en/docs/concepts/cluster-administration/logging.md:{% include code.html language="yaml" file="two-files-counter-pod-agent-sidecar.yaml" ghlink="/docs/concepts/cluster-administration/two-files-counter-pod-agent-sidecar.yaml" %}
+content/en/docs/concepts/cluster-administration/device-plugins.md:{% include feature-state-beta.md %}
+content/en/docs/concepts/cluster-administration/device-plugins.md:{% include templates/concept.md %}
+content/en/docs/tutorials/configuration/configure-redis-using-configmap.md:* {% include task-tutorial-prereqs.md %}
+content/en/docs/tutorials/configuration/configure-redis-using-configmap.md:{% include templates/tutorial.md %}
+content/en/docs/tutorials/example-tutorial-template.md:* {% include task-tutorial-prereqs.md %}
+content/en/docs/tutorials/example-tutorial-template.md:{% include templates/tutorial.md %}
+content/en/docs/tutorials/clusters/apparmor.md:{% assign for_k8s_version="v1.4" %}{% include feature-state-beta.md %}
+content/en/docs/tutorials/clusters/apparmor.md:{% include code.html language="text" file="deny-write.profile" ghlink="/docs/tutorials/clusters/deny-write.profile" %}
+content/en/docs/tutorials/clusters/apparmor.md:{% include code.html language="yaml" file="hello-apparmor-pod.yaml" ghlink="/docs/tutorials/clusters/hello-apparmor-pod.yaml" %}
+content/en/docs/tutorials/clusters/apparmor.md:{% include templates/tutorial.md %}
+content/en/docs/tutorials/online-training/overview.md:{% include templates/concept.md %}
+content/en/docs/tutorials/stateful-application/basic-stateful-set.md:{% include code.html language="yaml" file="web.yaml" ghlink="/docs/tutorials/stateful-application/web.yaml" %}
+content/en/docs/tutorials/stateful-application/basic-stateful-set.md:{% include code.html language="yaml" file="webp.yaml" ghlink="/docs/tutorials/stateful-application/webp.yaml" %}
+content/en/docs/tutorials/stateful-application/basic-stateful-set.md:{% include templates/tutorial.md %}
+content/en/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume.md:{% include task-tutorial-prereqs.md %} 
+content/en/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume.md:{% include code.html language="yaml" file="mysql-wordpress-persistent-volume/mysql-deployment.yaml" ghlink="/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/mysql-deployment.yaml" %}
+content/en/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume.md:{% include code.html language="yaml" file="mysql-wordpress-persistent-volume/wordpress-deployment.yaml" ghlink="/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/wordpress-deployment.yaml" %}
+content/en/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume.md:{% include templates/tutorial.md %}
+content/en/docs/tutorials/stateful-application/cassandra.md:{% include code.html language="yaml" file="cassandra/cassandra-service.yaml" ghlink="/docs/tutorials/stateful-application/cassandra/cassandra-service.yaml" %}
+content/en/docs/tutorials/stateful-application/cassandra.md:{% include code.html language="yaml" file="cassandra/cassandra-statefulset.yaml" ghlink="/docs/tutorials/stateful-application/cassandra/cassandra-statefulset.yaml" %}
+content/en/docs/tutorials/stateful-application/cassandra.md:{% include templates/tutorial.md %}
+content/en/docs/tutorials/stateful-application/zookeeper.md:{% include code.html language="yaml" file="zookeeper.yaml" ghlink="/docs/tutorials/stateful-application/zookeeper.yaml" %}
+content/en/docs/tutorials/stateful-application/zookeeper.md:{% include templates/tutorial.md %}
+content/en/docs/tutorials/services/source-ip.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tutorials/services/source-ip.md:{% include templates/tutorial.md %}
+content/en/docs/tutorials/stateless-application/hello-minikube.md:{% include code.html language="js" file="server.js" ghlink="/docs/tutorials/stateless-application/server.js" %}
+content/en/docs/tutorials/stateless-application/hello-minikube.md:{% include code.html language="conf" file="Dockerfile" ghlink="/docs/tutorials/stateless-application/Dockerfile" %}
+content/en/docs/tutorials/stateless-application/hello-minikube.md:{% include templates/tutorial.md %}
+content/en/docs/tutorials/stateless-application/guestbook.md:{% include task-tutorial-prereqs.md %}
+content/en/docs/tutorials/stateless-application/guestbook.md:   {% include code.html language="yaml" file="guestbook/redis-master-deployment.yaml" ghlink="/docs/tutorials/stateless-application/guestbook/redis-master-deployment.yaml" %}
+content/en/docs/tutorials/stateless-application/guestbook.md:   {% include code.html language="yaml" file="guestbook/redis-master-service.yaml" ghlink="/docs/tutorials/stateless-application/guestbook/redis-master-service.yaml" %}
+content/en/docs/tutorials/stateless-application/guestbook.md:   {% include code.html language="yaml" file="guestbook/redis-slave-deployment.yaml" ghlink="/docs/tutorials/stateless-application/guestbook/redis-slave-deployment.yaml" %}
+content/en/docs/tutorials/stateless-application/guestbook.md:   {% include code.html language="yaml" file="guestbook/redis-slave-service.yaml" ghlink="/docs/tutorials/stateless-application/guestbook/redis-slave-service.yaml" %}
+content/en/docs/tutorials/stateless-application/guestbook.md:   {% include code.html language="yaml" file="guestbook/frontend-deployment.yaml" ghlink="/docs/tutorials/stateless-application/guestbook/frontend-deployment.yaml" %}
+content/en/docs/tutorials/stateless-application/guestbook.md:   {% include code.html language="yaml" file="guestbook/frontend-service.yaml" ghlink="/docs/tutorials/stateless-application/guestbook/frontend-service.yaml" %}
+content/en/docs/tutorials/stateless-application/guestbook.md:{% include templates/tutorial.md %}
+content/en/docs/tutorials/stateless-application/expose-external-ip-address.md:{% include templates/tutorial.md %}
+content/en/docs/user-journeys/users/cluster-operator/_advanced.md:{% include templates/user-journey-content.md %}
+content/en/docs/user-journeys/users/cluster-operator/intermediate.md:{% include templates/user-journey-content.md %}
+content/en/docs/user-journeys/users/cluster-operator/foundational.md:{% include templates/user-journey-content.md %}
+content/en/docs/user-journeys/users/application-developer/advanced.md:{% include templates/user-journey-content.md %}
+content/en/docs/user-journeys/users/application-developer/intermediate.md:{% include templates/user-journey-content.md %}
+content/en/docs/user-journeys/users/application-developer/foundational.md:{% include templates/user-journey-content.md %}
+content/en/docs/reference/api-overview.md:{% include templates/concept.md %}
+content/en/docs/reference/api-concepts.md:{% include templates/concept.md %}
+content/en/docs/reference/feature-gates.md:{% include templates/concept.md %}
+content/en/docs/reference/client-libraries.md:{% include templates/concept.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_preflight_master.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_preflight_node.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include tabs.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_certs_all.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_certs_ca.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_certs_apiserver.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_certs_apiserver-kubelet-client.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_certs_sa.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_certs_front-proxy-ca.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_certs_front-proxy-client.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include tabs.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_kubeconfig_all.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_kubeconfig_admin.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_kubeconfig_kubelet.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_kubeconfig_controller-manager.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_kubeconfig_scheduler.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_kubeconfig_user.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include tabs.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_controlplane_all.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_controlplane_apiserver.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_controlplane_controller-manager.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_controlplane_scheduler.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include tabs.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_etcd_local.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include tabs.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_mark-master.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include tabs.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_bootstrap-token_all.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_bootstrap-token_create.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_bootstrap-token_cluster-info.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_bootstrap-token_node_allow-auto-approve.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_bootstrap-token_node_allow-post-csrs.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include tabs.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_upload-config.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include tabs.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_addon_all.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_addon_kube-proxy.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_addon_kube-dns.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include tabs.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include_relative generated/kubeadm_alpha_phase_selfhosting_convert-from-staticpods.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-alpha.md:{% include tabs.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-version.md:{% include_relative generated/kubeadm_version.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-version.md:{% include templates/concept.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-init.md:{% include_relative generated/kubeadm_init.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-init.md:{% include templates/concept.md %}
+content/en/docs/reference/setup-tools/kubeadm/implementation-details.md:{% include templates/concept.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-upgrade.md:{% include_relative generated/kubeadm_upgrade_plan.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-upgrade.md:{% include_relative generated/kubeadm_upgrade_apply.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-upgrade.md:{% include templates/concept.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-token.md:{% include_relative generated/kubeadm_token_create.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-token.md:{% include_relative generated/kubeadm_token_delete.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-token.md:{% include_relative generated/kubeadm_token_generate.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-token.md:{% include_relative generated/kubeadm_token_list.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-token.md:{% include templates/concept.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-join.md:{% include_relative generated/kubeadm_join.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-join.md:{% include templates/concept.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-config.md:{% include_relative generated/kubeadm_config_upload_from-file.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-config.md:{% include_relative generated/kubeadm_config_upload_from-flags.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-config.md:{% include_relative generated/kubeadm_config_view.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-config.md:{% include templates/concept.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-reset.md:{% include_relative generated/kubeadm_reset.md %}
+content/en/docs/reference/setup-tools/kubeadm/kubeadm-reset.md:{% include templates/concept.md %}

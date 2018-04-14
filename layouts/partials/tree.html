@@ -1,9 +1,12 @@
 {{/* TODO(bep) partialCached key */}}
 {{ $section := . }}
 <a class="item" data-title="{{ .LinkTitle }}" href="{{ .RelPermalink }}"></a>
+{{ range .Pages }}
+<a class="item" data-title="{{ .LinkTitle }}" href="{{ .RelPermalink }}"></a>
+{{ end }}
 {{ template "section-tree-nav" $section }}
 {{ define "section-tree-nav" }}
-	{{ range (where .Sections ".Params.toc_list" true) }}
+	{{ range .Sections }}
 	<div class="item" data-title="{{ .LinkTitle }}">
 		<div class="container">
 		{{ range .Pages }}

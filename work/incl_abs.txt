@@ -1,0 +1,230 @@
+   {% include code.html language="yaml" file="guestbook/frontend-deployment.yaml" ghlink="/docs/tutorials/stateless-application/guestbook/frontend-deployment.yaml" %}
+   {% include code.html language="yaml" file="guestbook/frontend-service.yaml" ghlink="/docs/tutorials/stateless-application/guestbook/frontend-service.yaml" %}
+   {% include code.html language="yaml" file="guestbook/redis-master-deployment.yaml" ghlink="/docs/tutorials/stateless-application/guestbook/redis-master-deployment.yaml" %}
+   {% include code.html language="yaml" file="guestbook/redis-master-service.yaml" ghlink="/docs/tutorials/stateless-application/guestbook/redis-master-service.yaml" %}
+   {% include code.html language="yaml" file="guestbook/redis-slave-deployment.yaml" ghlink="/docs/tutorials/stateless-application/guestbook/redis-slave-deployment.yaml" %}
+   {% include code.html language="yaml" file="guestbook/redis-slave-service.yaml" ghlink="/docs/tutorials/stateless-application/guestbook/redis-slave-service.yaml" %}
+  {% include code.html language="yaml" file="pod1.yaml" ghlink="/docs/tasks/administer-cluster/pod1.yaml" %}
+  {% include code.html language="yaml" file="pod2.yaml" ghlink="/docs/tasks/administer-cluster/pod2.yaml" %}
+  {% include code.html language="yaml" file="pod3.yaml" ghlink="/docs/tasks/administer-cluster/pod3.yaml" %}
+ {% include templates/concept.md %}
+* {% include default-storage-class-prereqs.md %}
+* {% include federated-task-tutorial-prereqs.md %}
+* {% include task-tutorial-prereqs.md %}
+- In the **Before you begin** section, use `{{ "{% include tasks-tutorial-prereqs.md "}} %}`.
+`{{ "{% include tabs.md " }}%}` pulls in the tabs template code, which uses the `tab_names` and `tab_contents` variables to render the tab set.
+{% assign for_k8s_version="1.7" %}{% include feature-state-deprecated.md %}
+{% assign for_k8s_version="v1.10" %}{% include feature-state-alpha.md %}
+{% assign for_k8s_version="v1.10" %}{% include feature-state-beta.md %}
+{% assign for_k8s_version="v1.4" %}{% include feature-state-beta.md %}
+{% assign for_k8s_version="v1.9" %}{% include feature-state-alpha.md %}
+{% assign for_k8s_version="v1.9" %}{% include feature-state-beta.md %}
+{% include code.html file="frontend/frontend.conf" ghlink="/docs/tasks/access-application-cluster/frontend/frontend.conf" %}
+{% include code.html language="conf" file="Dockerfile" ghlink="/docs/tutorials/stateless-application/Dockerfile" %}
+{% include code.html language="js" file="server.js" ghlink="/docs/tutorials/stateless-application/server.js" %}
+{% include code.html language="json" file="namespace-dev.json" ghlink="/docs/tasks/administer-cluster/namespace-dev.json" %}
+{% include code.html language="json" file="namespace-prod.json" ghlink="/docs/tasks/administer-cluster/namespace-prod.json" %}
+{% include code.html language="python" file="worker.py" ghlink="/docs/tasks/job/coarse-parallel-processing-work-queue/worker.py" %}
+{% include code.html language="python" file="worker.py" ghlink="/docs/tasks/job/fine-parallel-processing-work-queue/worker.py" %}
+{% include code.html language="text" file="deny-write.profile" ghlink="/docs/tutorials/clusters/deny-write.profile" %}
+{% include code.html language="yaml" file="Values.yaml" ghlink="/docs/tasks/federation/Values.yaml" %}
+{% include code.html language="yaml" file="audit-policy.yaml" ghlink="/docs/tasks/debug-application-cluster/audit-policy.yaml" %}
+{% include code.html language="yaml" file="busybox.yaml" ghlink="/docs/tasks/administer-cluster/busybox.yaml" %}
+{% include code.html language="yaml" file="cassandra/cassandra-service.yaml" ghlink="/docs/tutorials/stateful-application/cassandra/cassandra-service.yaml" %}
+{% include code.html language="yaml" file="cassandra/cassandra-statefulset.yaml" ghlink="/docs/tutorials/stateful-application/cassandra/cassandra-statefulset.yaml" %}
+{% include code.html language="yaml" file="cloud-controller-manager-daemonset-example.yaml" ghlink="/docs/tasks/administer-cluster/cloud-controller-manager-daemonset-example.yaml" %}
+{% include code.html language="yaml" file="commands.yaml" ghlink="/cn/docs/tasks/inject-data-application/commands.yaml" %}
+{% include code.html language="yaml" file="commands.yaml" ghlink="/docs/tasks/inject-data-application/commands.yaml" %}
+{% include code.html language="yaml" file="counter-pod.yaml" ghlink="/docs/tasks/debug-application-cluster/counter-pod.yaml" %}
+{% include code.html language="yaml" file="cpu-constraints-pod-2.yaml" ghlink="/docs/tasks/administer-cluster/cpu-constraints-pod-2.yaml" %}
+{% include code.html language="yaml" file="cpu-constraints-pod-3.yaml" ghlink="/docs/tasks/administer-cluster/cpu-constraints-pod-3.yaml" %}
+{% include code.html language="yaml" file="cpu-constraints-pod-4.yaml" ghlink="/docs/tasks/administer-cluster/cpu-constraints-pod-4.yaml" %}
+{% include code.html language="yaml" file="cpu-constraints-pod.yaml" ghlink="/docs/tasks/administer-cluster/cpu-constraints-pod.yaml" %}
+{% include code.html language="yaml" file="cpu-constraints.yaml" ghlink="/docs/tasks/administer-cluster/cpu-constraints.yaml" %}
+{% include code.html language="yaml" file="cpu-defaults-pod-2.yaml" ghlink="/docs/tasks/administer-cluster/cpu-defaults-pod-2.yaml" %}
+{% include code.html language="yaml" file="cpu-defaults-pod-3.yaml" ghlink="/docs/tasks/administer-cluster/cpu-defaults-pod-3.yaml" %}
+{% include code.html language="yaml" file="cpu-defaults-pod.yaml" ghlink="/docs/tasks/administer-cluster/cpu-defaults-pod.yaml" %}
+{% include code.html language="yaml" file="cpu-defaults.yaml" ghlink="/docs/tasks/administer-cluster/cpu-defaults.yaml" %}
+{% include code.html language="yaml" file="cpu-request-limit-2.yaml" ghlink="/docs/tasks/configure-pod-container/cpu-request-limit-2.yaml" %}
+{% include code.html language="yaml" file="cpu-request-limit.yaml" ghlink="/docs/tasks/configure-pod-container/cpu-request-limit.yaml" %}
+{% include code.html language="yaml" file="cronjob.yaml" ghlink="/docs/concepts/workloads/controllers/cronjob.yaml" %}
+{% include code.html language="yaml" file="curlpod.yaml" ghlink="/docs/concepts/services-networking/curlpod.yaml" %}
+{% include code.html language="yaml" file="custom-dns.yaml" ghlink="/docs/concepts/services-networking/custom-dns.yaml" %}
+{% include code.html language="yaml" file="daemonset.yaml" ghlink="/docs/concepts/workloads/controllers/daemonset.yaml" %}
+{% include code.html language="yaml" file="dapi-envars-container.yaml" ghlink="/cn/docs/tasks/inject-data-application/dapi-envars-container.yaml" %}
+{% include code.html language="yaml" file="dapi-envars-container.yaml" ghlink="/docs/tasks/inject-data-application/dapi-envars-container.yaml" %}
+{% include code.html language="yaml" file="dapi-envars-pod.yaml" ghlink="/cn/docs/tasks/inject-data-application/dapi-envars-pod.yaml" %}
+{% include code.html language="yaml" file="dapi-envars-pod.yaml" ghlink="/docs/tasks/inject-data-application/dapi-envars-pod.yaml" %}
+{% include code.html language="yaml" file="dapi-volume-resources.yaml" ghlink="/cn/docs/tasks/inject-data-application/dapi-volume-resources.yaml" %}
+{% include code.html language="yaml" file="dapi-volume-resources.yaml" ghlink="/docs/tasks/inject-data-application/dapi-volume-resources.yaml" %}
+{% include code.html language="yaml" file="dapi-volume.yaml" ghlink="/cn/docs/tasks/inject-data-application/dapi-volume.yaml" %}
+{% include code.html language="yaml" file="dapi-volume.yaml" ghlink="/docs/tasks/inject-data-application/dapi-volume.yaml" %}
+{% include code.html language="yaml" file="deployment-patch-demo.yaml" ghlink="/docs/tasks/run-application/deployment-patch-demo.yaml" %}
+{% include code.html language="yaml" file="deployment-scale.yaml" ghlink="/cn/docs/tutorials/stateless-application/deployment-scale.yaml" %}
+{% include code.html language="yaml" file="deployment-scale.yaml" ghlink="/docs/tasks/run-application/deployment-scale.yaml" %}
+{% include code.html language="yaml" file="deployment-update.yaml" ghlink="/cn/docs/tutorials/stateless-application/deployment-update.yaml" %}
+{% include code.html language="yaml" file="deployment-update.yaml" ghlink="/docs/tasks/run-application/deployment-update.yaml" %}
+{% include code.html language="yaml" file="deployment-update.yaml" ghlink="/docs/user-guide/walkthrough/deployment-update.yaml" %}
+{% include code.html language="yaml" file="deployment.yaml" ghlink="/cn/docs/tasks/run-application/deployment.yaml" %}
+{% include code.html language="yaml" file="deployment.yaml" ghlink="/docs/tasks/run-application/deployment.yaml" %}
+{% include code.html language="yaml" file="deployment.yaml" ghlink="/docs/user-guide/walkthrough/deployment.yaml" %}
+{% include code.html language="yaml" file="dns-horizontal-autoscaler.yaml" ghlink="/docs/tasks/administer-cluster/dns-horizontal-autoscaler.yaml" %}
+{% include code.html language="yaml" file="envars.yaml" ghlink="/docs/tasks/inject-data-application/envars.yaml" %}
+{% include code.html language="yaml" file="event-exporter-deploy.yaml" ghlink="/docs/tasks/debug-application-cluster/event-exporter-deploy.yaml" %}
+{% include code.html language="yaml" file="example-psp.yaml" ghlink="/docs/concepts/policy/example-psp.yaml" %}
+{% include code.html language="yaml" file="exec-liveness.yaml" ghlink="/docs/tasks/configure-pod-container/exec-liveness.yaml" %}
+{% include code.html language="yaml" file="extended-resource-pod-2.yaml" ghlink="/docs/tasks/configure-pod-container/extended-resource-pod-2.yaml" %}
+{% include code.html language="yaml" file="extended-resource-pod.yaml" ghlink="/docs/tasks/configure-pod-container/extended-resource-pod.yaml" %}
+{% include code.html language="yaml" file="fluentd-sidecar-config.yaml" ghlink="/docs/concepts/cluster-administration/fluentd-sidecar-config.yaml" %}
+{% include code.html language="yaml" file="frontend.yaml" ghlink="/docs/concepts/workloads/controllers/frontend.yaml" %}
+{% include code.html language="yaml" file="frontend.yaml" ghlink="/docs/tasks/access-application-cluster/frontend.yaml" %}
+{% include code.html language="yaml" file="gce-volume.yaml" ghlink="/docs/tasks/run-application/gce-volume.yaml" %}
+{% include code.html language="yaml" file="hello-apparmor-pod.yaml" ghlink="/docs/tutorials/clusters/hello-apparmor-pod.yaml" %}
+{% include code.html language="yaml" file="hello-service.yaml" ghlink="/docs/tasks/access-application-cluster/hello-service.yaml" %}
+{% include code.html language="yaml" file="hello.yaml" ghlink="/docs/tasks/access-application-cluster/hello.yaml" %}
+{% include code.html language="yaml" file="hostaliases-pod.yaml" ghlink="/docs/concepts/services-networking/hostaliases-pod.yaml" %}
+{% include code.html language="yaml" file="hpa-php-apache.yaml" ghlink="/docs/tasks/run-application/hpa-php-apache.yaml" %}
+{% include code.html language="yaml" file="hpa-rs.yaml" ghlink="/docs/concepts/workloads/controllers/hpa-rs.yaml" %}
+{% include code.html language="yaml" file="http-liveness.yaml" ghlink="/docs/tasks/configure-pod-container/http-liveness.yaml" %}
+{% include code.html language="yaml" file="ingress.yaml" ghlink="/docs/concepts/services-networking/ingress.yaml" %}
+{% include code.html language="yaml" file="init-containers.yaml" ghlink="/docs/tasks/configure-pod-container/init-containers.yaml" %}
+{% include code.html language="yaml" file="job.yaml" ghlink="/docs/concepts/workloads/controllers/job.yaml" %}
+{% include code.html language="yaml" file="job.yaml" ghlink="/docs/tasks/job/coarse-parallel-processing-work-queue/job.yaml" %}
+{% include code.html language="yaml" file="job.yaml" ghlink="/docs/tasks/job/fine-parallel-processing-work-queue/job.yaml" %}
+{% include code.html language="yaml" file="job.yaml" ghlink="/docs/tasks/job/job.yaml" %}
+{% include code.html language="yaml" file="lifecycle-events.yaml" ghlink="/docs/tasks/configure-pod-container/lifecycle-events.yaml" %}
+{% include code.html language="yaml" file="memory-constraints-pod-2.yaml" ghlink="/docs/tasks/administer-cluster/memory-constraints-pod-2.yaml" %}
+{% include code.html language="yaml" file="memory-constraints-pod-3.yaml" ghlink="/docs/tasks/administer-cluster/memory-constraints-pod-3.yaml" %}
+{% include code.html language="yaml" file="memory-constraints-pod-4.yaml" ghlink="/docs/tasks/administer-cluster/memory-constraints-pod-4.yaml" %}
+{% include code.html language="yaml" file="memory-constraints-pod.yaml" ghlink="/docs/tasks/administer-cluster/memory-constraints-pod.yaml" %}
+{% include code.html language="yaml" file="memory-constraints.yaml" ghlink="/docs/tasks/administer-cluster/memory-constraints.yaml" %}
+{% include code.html language="yaml" file="memory-defaults-pod-2.yaml" ghlink="/docs/tasks/administer-cluster/memory-defaults-pod-2.yaml" %}
+{% include code.html language="yaml" file="memory-defaults-pod-3.yaml" ghlink="/docs/tasks/administer-cluster/memory-defaults-pod-3.yaml" %}
+{% include code.html language="yaml" file="memory-defaults-pod.yaml" ghlink="/docs/tasks/administer-cluster/memory-defaults-pod.yaml" %}
+{% include code.html language="yaml" file="memory-defaults.yaml" ghlink="/docs/tasks/administer-cluster/memory-defaults.yaml" %}
+{% include code.html language="yaml" file="memory-request-limit-2.yaml" ghlink="/docs/tasks/configure-pod-container/memory-request-limit-2.yaml" %}
+{% include code.html language="yaml" file="memory-request-limit-3.yaml" ghlink="/docs/tasks/configure-pod-container/memory-request-limit-3.yaml" %}
+{% include code.html language="yaml" file="memory-request-limit.yaml" ghlink="/docs/tasks/configure-pod-container/memory-request-limit.yaml" %}
+{% include code.html language="yaml" file="my-repset.yaml" ghlink="/docs/concepts/workloads/controllers/my-repset.yaml" %}
+{% include code.html language="yaml" file="my-scheduler.yaml" ghlink="/docs/tasks/administer-cluster/my-scheduler.yaml" %}
+{% include code.html language="yaml" file="mysql-configmap.yaml" ghlink="/docs/tasks/run-application/mysql-configmap.yaml" %}
+{% include code.html language="yaml" file="mysql-deployment.yaml" ghlink="/docs/tasks/run-application/mysql-deployment.yaml" %}
+{% include code.html language="yaml" file="mysql-services.yaml" ghlink="/docs/tasks/run-application/mysql-services.yaml" %}
+{% include code.html language="yaml" file="mysql-statefulset.yaml" ghlink="/docs/tasks/run-application/mysql-statefulset.yaml" %}
+{% include code.html language="yaml" file="mysql-wordpress-persistent-volume/mysql-deployment.yaml" ghlink="/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/mysql-deployment.yaml" %}
+{% include code.html language="yaml" file="mysql-wordpress-persistent-volume/wordpress-deployment.yaml" ghlink="/docs/tutorials/stateful-application/mysql-wordpress-persistent-volume/wordpress-deployment.yaml" %}
+{% include code.html language="yaml" file="nginx-app.yaml" ghlink="/docs/concepts/cluster-administration/nginx-app.yaml" %}
+{% include code.html language="yaml" file="nginx-dep.yaml" ghlink="/docs/tasks/debug-application-cluster/nginx-dep.yaml" %}
+{% include code.html language="yaml" file="nginx-deployment.yaml" ghlink="/docs/concepts/overview/working-with-objects/nginx-deployment.yaml" %}
+{% include code.html language="yaml" file="nginx-deployment.yaml" ghlink="/docs/concepts/workloads/controllers/nginx-deployment.yaml" %}
+{% include code.html language="yaml" file="nginx-secure-app.yaml" ghlink="/docs/concepts/services-networking/nginx-secure-app.yaml" %}
+{% include code.html language="yaml" file="nginx-svc.yaml" ghlink="/docs/concepts/services-networking/nginx-svc.yaml" %}
+{% include code.html language="yaml" file="oir-pod-2.yaml" ghlink="/docs/tasks/configure-pod-container/oir-pod-2.yaml" %}
+{% include code.html language="yaml" file="oir-pod.yaml" ghlink="/cn/docs/tasks/configure-pod-container/oir-pod.yaml" %}
+{% include code.html language="yaml" file="persistent-volume-label-initializer-config.yaml" ghlink="/docs/tasks/administer-cluster/persistent-volume-label-initializer-config.yaml" %}
+{% include code.html language="yaml" file="pod-nginx-with-label.yaml" ghlink="/docs/user-guide/walkthrough/pod-nginx-with-label.yaml" %}
+{% include code.html language="yaml" file="pod-nginx.yaml" ghlink="/docs/user-guide/walkthrough/pod-nginx.yaml" %}
+{% include code.html language="yaml" file="pod-redis.yaml" ghlink="/docs/tasks/configure-pod-container/pod-redis.yaml" %}
+{% include code.html language="yaml" file="pod-redis.yaml" ghlink="/docs/user-guide/walkthrough/pod-redis.yaml" %}
+{% include code.html language="yaml" file="pod-with-http-healthcheck.yaml" ghlink="/docs/user-guide/walkthrough/pod-with-http-healthcheck.yaml" %}
+{% include code.html language="yaml" file="pod-with-node-affinity.yaml" ghlink="/docs/concepts/configuration/pod-with-node-affinity.yaml" %}
+{% include code.html language="yaml" file="pod-with-pod-affinity.yaml" ghlink="/docs/concepts/configuration/pod-with-pod-affinity.yaml" %}
+{% include code.html language="yaml" file="pod-with-tcp-socket-healthcheck.yaml" ghlink="/docs/user-guide/walkthrough/pod-with-tcp-socket-healthcheck.yaml" %}
+{% include code.html language="yaml" file="pod.yaml" ghlink="/docs/concepts/configuration/pod.yaml" %}
+{% include code.html language="yaml" file="pod.yaml" ghlink="/docs/tasks/configure-pod-container/pod.yaml" %}
+{% include code.html language="yaml" file="podpreset-allow-db-merged.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-allow-db-merged.yaml" %}
+{% include code.html language="yaml" file="podpreset-allow-db-merged.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-allow-db-merged.yaml" %}
+{% include code.html language="yaml" file="podpreset-allow-db.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-allow-db.yaml" %}
+{% include code.html language="yaml" file="podpreset-allow-db.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-allow-db.yaml" %}
+{% include code.html language="yaml" file="podpreset-configmap.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-configmap.yaml" %}
+{% include code.html language="yaml" file="podpreset-configmap.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-configmap.yaml" %}
+{% include code.html language="yaml" file="podpreset-conflict-pod.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-conflict-pod.yaml" %}
+{% include code.html language="yaml" file="podpreset-conflict-pod.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-conflict-pod.yaml" %}
+{% include code.html language="yaml" file="podpreset-conflict-preset.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-conflict-preset.yaml" %}
+{% include code.html language="yaml" file="podpreset-conflict-preset.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-conflict-preset.yaml" %}
+{% include code.html language="yaml" file="podpreset-merged.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-merged.yaml" %}
+{% include code.html language="yaml" file="podpreset-merged.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-merged.yaml" %}
+{% include code.html language="yaml" file="podpreset-multi-merged.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-multi-merged.yaml" %}
+{% include code.html language="yaml" file="podpreset-multi-merged.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-multi-merged.yaml" %}
+{% include code.html language="yaml" file="podpreset-pod.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-pod.yaml" %}
+{% include code.html language="yaml" file="podpreset-pod.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-pod.yaml" %}
+{% include code.html language="yaml" file="podpreset-preset.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-preset.yaml" %}
+{% include code.html language="yaml" file="podpreset-preset.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-preset.yaml" %}
+{% include code.html language="yaml" file="podpreset-proxy.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-proxy.yaml" %}
+{% include code.html language="yaml" file="podpreset-proxy.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-proxy.yaml" %}
+{% include code.html language="yaml" file="podpreset-replicaset-merged.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-replicaset-merged.yaml" %}
+{% include code.html language="yaml" file="podpreset-replicaset-merged.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-replicaset-merged.yaml" %}
+{% include code.html language="yaml" file="podpreset-replicaset.yaml" ghlink="/cn/docs/tasks/inject-data-application/podpreset-replicaset.yaml" %}
+{% include code.html language="yaml" file="podpreset-replicaset.yaml" ghlink="/docs/tasks/inject-data-application/podpreset-replicaset.yaml" %}
+{% include code.html language="yaml" file="policy-engine-deployment.yaml" ghlink="/docs/tasks/federation/policy-engine-deployment.yaml" %}
+{% include code.html language="yaml" file="policy-engine-service.yaml" ghlink="/docs/tasks/federation/policy-engine-service.yaml" %}
+{% include code.html language="yaml" file="policy.rego" ghlink="/docs/tasks/federation/policy.rego" %}
+{% include code.html language="yaml" file="private-reg-pod.yaml" ghlink="/docs/tasks/configure-pod-container/private-reg-pod.yaml" %}
+{% include code.html language="yaml" file="privileged-psp.yaml" ghlink="/docs/concepts/policy/privileged-psp.yaml" %}
+{% include code.html language="yaml" file="projected-volume.yaml" ghlink="/docs/tasks/configure-pod-container/projected-volume.yaml" %}
+{% include code.html language="yaml" file="psp.yaml" ghlink="/docs/concepts/policy/psp.yaml" %}
+{% include code.html language="yaml" file="qos-pod-2.yaml" ghlink="/docs/tasks/configure-pod-container/qos-pod-2.yaml" %}
+{% include code.html language="yaml" file="qos-pod-3.yaml" ghlink="/docs/tasks/configure-pod-container/qos-pod-3.yaml" %}
+{% include code.html language="yaml" file="qos-pod-4.yaml" ghlink="/docs/tasks/configure-pod-container/qos-pod-4.yaml" %}
+{% include code.html language="yaml" file="qos-pod.yaml" ghlink="/docs/tasks/configure-pod-container/qos-pod.yaml" %}
+{% include code.html language="yaml" file="quota-mem-cpu-pod-2.yaml" ghlink="/docs/tasks/administer-cluster/quota-mem-cpu-pod-2.yaml" %}
+{% include code.html language="yaml" file="quota-mem-cpu-pod.yaml" ghlink="/docs/tasks/administer-cluster/quota-mem-cpu-pod.yaml" %}
+{% include code.html language="yaml" file="quota-mem-cpu.yaml" ghlink="/docs/tasks/administer-cluster/quota-mem-cpu.yaml" %}
+{% include code.html language="yaml" file="quota-objects-pvc-2.yaml" ghlink="/docs/tasks/administer-cluster/quota-objects-pvc-2.yaml" %}
+{% include code.html language="yaml" file="quota-objects-pvc.yaml" ghlink="/docs/tasks/administer-cluster/quota-objects-pvc.yaml" %}
+{% include code.html language="yaml" file="quota-objects.yaml" ghlink="/docs/tasks/administer-cluster/quota-objects.yaml" %}
+{% include code.html language="yaml" file="quota-pod-deployment.yaml" ghlink="/docs/tasks/administer-cluster/quota-pod-deployment.yaml" %}
+{% include code.html language="yaml" file="quota-pod.yaml" ghlink="/docs/tasks/administer-cluster/quota-pod.yaml" %}
+{% include code.html language="yaml" file="replicaset-example-policy.yaml" ghlink="/docs/tasks/federation/replicaset-example-policy.yaml" %}
+{% include code.html language="yaml" file="replication.yaml" ghlink="/docs/concepts/workloads/controllers/replication.yaml" %}
+{% include code.html language="yaml" file="restricted-psp.yaml" ghlink="/docs/concepts/policy/restricted-psp.yaml" %}
+{% include code.html language="yaml" file="run-my-nginx.yaml" ghlink="/docs/concepts/services-networking/run-my-nginx.yaml" %}
+{% include code.html language="yaml" file="scheduling-policy-admission.yaml" ghlink="/docs/tasks/federation/scheduling-policy-admission.yaml" %}
+{% include code.html language="yaml" file="secret-envars-pod.yaml" ghlink="/docs/tasks/inject-data-application/secret-envars-pod.yaml" %}
+{% include code.html language="yaml" file="secret-pod.yaml" ghlink="/docs/tasks/inject-data-application/secret-pod.yaml" %}
+{% include code.html language="yaml" file="secret.yaml" ghlink="/docs/tasks/inject-data-application/secret.yaml" %}
+{% include code.html language="yaml" file="security-context-2.yaml" ghlink="/docs/tasks/configure-pod-container/security-context-2.yaml" %}
+{% include code.html language="yaml" file="security-context-3.yaml" ghlink="/docs/tasks/configure-pod-container/security-context-3.yaml" %}
+{% include code.html language="yaml" file="security-context-4.yaml" ghlink="/docs/tasks/configure-pod-container/security-context-4.yaml" %}
+{% include code.html language="yaml" file="security-context.yaml" ghlink="/docs/tasks/configure-pod-container/security-context.yaml" %}
+{% include code.html language="yaml" file="service.yaml" ghlink="/docs/user-guide/walkthrough/service.yaml" %}
+{% include code.html language="yaml" file="share-process-namespace.yaml" ghlink="/docs/tasks/configure-pod-container/share-process-namespace.yaml" %}
+{% include code.html language="yaml" file="shell-demo.yaml" ghlink="/docs/tasks/debug-application-cluster/shell-demo.yaml" %}
+{% include code.html language="yaml" file="simple_deployment.yaml" ghlink="/docs/concepts/overview/object-management-kubectl/simple_deployment.yaml" %}
+{% include code.html language="yaml" file="task-pv-claim.yaml" ghlink="/docs/tasks/configure-pod-container/task-pv-claim.yaml" %}
+{% include code.html language="yaml" file="task-pv-pod.yaml" ghlink="/docs/tasks/configure-pod-container/task-pv-pod.yaml" %}
+{% include code.html language="yaml" file="task-pv-volume.yaml" ghlink="/docs/tasks/configure-pod-container/task-pv-volume.yaml" %}
+{% include code.html language="yaml" file="tcp-liveness-readiness.yaml" ghlink="/docs/tasks/configure-pod-container/tcp-liveness-readiness.yaml" %}
+{% include code.html language="yaml" file="termination.yaml" ghlink="/docs/tasks/debug-application-cluster/termination.yaml" %}
+{% include code.html language="yaml" file="two-container-pod.yaml" ghlink="/docs/tasks/access-application-cluster/two-container-pod.yaml" %}
+{% include code.html language="yaml" file="two-files-counter-pod-agent-sidecar.yaml" ghlink="/docs/concepts/cluster-administration/two-files-counter-pod-agent-sidecar.yaml" %}
+{% include code.html language="yaml" file="two-files-counter-pod-streaming-sidecar.yaml" ghlink="/docs/concepts/cluster-administration/two-files-counter-pod-streaming-sidecar.yaml" %}
+{% include code.html language="yaml" file="two-files-counter-pod.yaml" ghlink="/docs/concepts/cluster-administration/two-files-counter-pod.yaml" %}
+{% include code.html language="yaml" file="update_deployment.yaml" ghlink="/docs/concepts/overview/object-management-kubectl/update_deployment.yaml" %}
+{% include code.html language="yaml" file="web.yaml" ghlink="/docs/tutorials/stateful-application/web.yaml" %}
+{% include code.html language="yaml" file="webp.yaml" ghlink="/docs/tutorials/stateful-application/webp.yaml" %}
+{% include code.html language="yaml" file="zookeeper.yaml" ghlink="/docs/tutorials/stateful-application/zookeeper.yaml" %}
+{% include feature-state-alpha.md %}
+{% include feature-state-alpha.md %}
+{% include feature-state-beta.md %}
+{% include feature-state-stable.md %}
+{% include tabs.md %}
+{% include task-tutorial-prereqs.md %}
+{% include task-tutorial-prereqs.md %}
+{% include task-tutorial-prereqs.md %} 
+{% include templates/concept.md %}
+{% include templates/concept.md %}</pre>
+{% include templates/concept.md %}</pre>{% endraw %}
+{% include templates/task.md %}
+{% include templates/task.md %}</pre>
+{% include templates/task.md %}</pre>{% endraw %}
+{% include templates/tutorial.md %}
+{% include templates/tutorial.md %}</pre>
+{% include templates/tutorial.md %}</pre>{% endraw %}
+{% include templates/user-journey-content.md %}
+{% include user-guide-content-moved.md %}
+{{ "{% include feature-state-alpha.md " }}%}
+{{ "{% include feature-state-beta.md " }}%}
+{{ "{% include feature-state-deprecated.md " }}%}
+{{ "{% include feature-state-stable.md " }}%}
+{{ "{% include tabs.md " }}%}
