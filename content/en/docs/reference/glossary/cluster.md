@@ -5,12 +5,11 @@ date: 2018-04-12
 full-link: 
 tags:
 - fundamental
-- operation
-short_description: >
-  A set of machines, called nodes, that run containerized applications managed by Kubernetes.
-
+- operation 
 ---
+ A set of machines, called nodes, that run containerized applications managed by Kubernetes.
+
+<!--more--> 
 
 A cluster has several worker nodes and at least one master node.
-
 

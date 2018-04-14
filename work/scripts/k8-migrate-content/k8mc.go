@@ -149,7 +149,7 @@ func (m *mover) contentMigrate_Step1_Basic_Copy_And_Rename() error {
 }
 
 func (m *mover) contentMigrate_CreateGlossaryFromData() error {
-	mm, err := m.readDataDir("glossary", func() interface{} { return make(map[string]interface{}) })
+	mm, err := m.readDataDir("glossary_remove", func() interface{} { return make(map[string]interface{}) })
 	if err != nil {
 		return err
 	}
@@ -160,8 +160,8 @@ func (m *mover) contentMigrate_CreateGlossaryFromData() error {
 		return err
 	}
 
-	// Add a section index page.
-	filename := filepath.Join(glossaryDir, "_index.md")
+	// Add a bundle index page.
+	filename := filepath.Join(glossaryDir, "index.md")
 	if err := ioutil.WriteFile(filename, []byte(`---
 approvers:
 - chenopis
@@ -207,13 +207,12 @@ id: %s
 date: 2018-04-12
 full-link: %s
 tags:
-%s
-short_description: >
-  %s
+%s 
 ---
+ %s
+<!--more--> 
 
 %s
-
 `, name, id, fullLink, tagsStr, shortDesc, longDesc)
 
 		if err := ioutil.WriteFile(filename, []byte(content), os.FileMode(0755)); err != nil {
@@ -344,6 +343,8 @@ func (m *mover) handleTocEntryRecursive(sidx int, entry map[string]interface{}) 
 						force = true
 					}
 
+					// TODO(bep) we need to turn the toc_list into toc_no_list (or something) because of the semantics of the children
+					// Which will be more complex logic here ... but doable?
 					if force || !m.checkRelFileExists(relFilename) {
 						m.addedFiles[relFilename] = true
 						filename := filepath.Join(m.absFilename(relFilename))

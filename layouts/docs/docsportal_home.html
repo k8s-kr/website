@@ -24,7 +24,8 @@
     <div class="persona-def-data" data-name="{{ $kk }}">
     {{ $persona_info := $vv }}
     {{ if $persona_info.glossary_id }}
-    {{ index (index $data.glossary $persona_info.glossary_id) "short-description" }}
+    {{/* TODO(bep) */}}
+    {{/* index (index $data.glossary $persona_info.glossary_id) "short-description" */}}
     {{ else if $persona_info.short_desc }}
     {{ $persona_info.short_desc }}
     {{ end }}

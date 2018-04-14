@@ -32,18 +32,34 @@ TODO
 * 404
 * OK customcss/js
 * .Params.version
+* Check for index.md files
+
+* Language dropdown left to version, right
+
+* Case studies, partners etc.
+
 
 * Glossary:
 
 - Check default_active_tag
 - Check how to navigate to the "parent nodes" in menu
+- Remove /data/glossary and add .GetPage etc. logic in shortcode
 
 All:
 
 - Check noedit
+- headless bundle for all the includes
+
 
 
 In /data:
 
 * Delete /glossary and all YAML in root
 * Consider moving cannonical-tags to > Hugo taxonomies
+
+
+
+Talking points Monday meeting
+
+* Glossary is now a Hugo bundle
+
